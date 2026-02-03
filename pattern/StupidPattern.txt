@@ -1,0 +1,27 @@
+@  X
+@ .B.
+@XB..X
+@ ...
+@  X
+BlackStupidPattern=1
+
+@  X
+@ BB.
+@X...X
+@ ...
+@  X
+BlackStupidPattern=1
+
+@  X
+@ .W.
+@XW..X
+@ ...
+@  X
+WhiteStupidPattern=1
+
+@  X
+@ WW.
+@X...X
+@ ...
+@  X
+WhiteStupidPattern=1

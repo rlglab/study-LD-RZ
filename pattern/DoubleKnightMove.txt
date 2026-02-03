@@ -1,0 +1,27 @@
+@  X
+@ BwB
+@Xw.wX
+@ wBw
+@  X
+BlackDoubleKnightMove=true
+
+@  X
+@ BwB
+@X.w.X
+@ wBw
+@  X
+BlackDoubleKnightMove=true
+
+@  X
+@ wB*
+@Xw.BX
+@ Bww
+@  X
+BlackDoubleKnightMove=true
+
+@  X
+@ wB*
+@X.wBX
+@ B.w
+@  X
+BlackDoubleKnightMove=true

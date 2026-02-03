@@ -1,0 +1,78 @@
+# ¸É²´
+
+@  X
+@ WBB
+@XB.BX
+@ BB.
+@  X
+BlackFixTrueEye=DIRV8_lxuxrXdx
+
+@  X
+@ WBB
+@XB.BX
+@ .BB
+@  X
+BlackFixTrueEye=DIRV8_lxuxrxdX
+
+@  X
+@ WB.
+@XB.BX
+@ .B.
+@  X
+BlackFixPotentialTrueEye=DIRV8_lxuXrXdX
+
+@  X
+@ WB.
+@XB.BX
+@ BB.
+@  X
+BlackFixPotentialTrueEye=DIRV8_lxuXrXdx
+
+@  X
+@ WB.
+@XB.BX
+@ .BB
+@  X
+BlackFixPotentialTrueEye=DIRV8_lxuXrxdX
+
+@  X
+@ WB.
+@XB.BX
+@ WB.
+@  X
+BlackFixFalseEye=DIRV8_lxuXrXdx
+
+@  X
+@ WB.
+@XB.BX
+@ WBB
+@  X
+BlackFixFalseEye=DIRV8_lxuXrxdx
+
+@  X
+@ WB.
+@XB.BX
+@ .BW
+@  X
+BlackFixFalseEye=DIRV8_lxuXrxdX
+
+@  X
+@ WB.
+@XB.BX
+@ BBW
+@  X
+BlackFixFalseEye=DIRV8_lxuXrxdx
+
+@  X
+@ WB.
+@XB.BX
+@ WBW
+@  X
+BlackFixFalseEye=DIRV8_lxuXrxdx
+
+@  X
+@  BW
+@  .BX
+@  B.
+@  X
+BlackFixFalseEye=DIRV8_lxuxrXdx

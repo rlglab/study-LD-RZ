@@ -1,0 +1,13 @@
+@  X
+@ *B*
+@XB.BX
+@ B.B
+@  X
+ConnectWithOneEye=True
+
+@  X
+@ *W*
+@XW.WX
+@ W.W
+@  X
+ConnectWithOneEye=True

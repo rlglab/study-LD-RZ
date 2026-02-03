@@ -1,0 +1,20 @@
+@  X
+@ BBB
+@XB.BX
+@ BB*
+@  X
+BlackTrueEye=true
+
+@  X
+@  BB
+@  .BX
+@  BB
+@  X
+BlackTrueEye=true
+
+@  X
+@  BB
+@  .BX
+@     
+@   
+BlackTrueEye=true

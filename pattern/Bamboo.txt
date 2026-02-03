@@ -1,0 +1,43 @@
+#The value indicates the direction of the other bamboo point to the central point
+
+@  X
+@ *BB
+@X*.wX
+@     
+@     
+BlackBamboo=DIR4_R
+
+@  X
+@ *BB
+@X*w.X
+@     
+@     
+BlackBamboo=DIR4_R
+
+@  X
+@ BwB
+@XB.BX
+@     
+@     
+BlackBamboo=DIR4_U
+
+@  X 
+@ *BB 
+@X*.wX
+@ *BB 
+@  X
+BlackBamboo=DIR4_R
+
+@  X 
+@ *BB 
+@X*w.X
+@ *BB 
+@  X
+BlackBamboo=DIR4_R
+
+@  X
+@  BB
+@  .wX
+@     
+@     
+BlackBamboo=DIR4_R

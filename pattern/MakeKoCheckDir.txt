@@ -1,0 +1,27 @@
+@  X
+@ *WB
+@XW..X
+@ *WB
+@  X
+BlackMakeKoCheckDir=DIR4_R
+
+@  X
+@  .B
+@  .WX
+@  W*
+@  X
+BlackMakeKoCheckDir=DIR4_U
+
+@  X
+@  WB
+@  ..X
+@  WB
+@  X
+BlackMakeKoCheckDir=DIR4_R
+
+@  X
+@  WB
+@  ..X
+@    
+@   
+BlackMakeKoCheckDir=DIR4_R

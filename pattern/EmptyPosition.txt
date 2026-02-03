@@ -1,0 +1,78 @@
+#direction indicate the empty neighbor of center grid 
+
+@  X
+@ *.*
+@X...X
+@ *.*
+@  X
+EmptyPosition=DIRV4_LURD
+
+@  X
+@ *+*
+@X...X
+@ *.*
+@  X
+EmptyPosition=DIRV4_LuRD
+
+@  X
+@ *+*
+@X...X
+@ *+*
+@  X
+EmptyPosition=DIRV4_LuRd
+
+@  X
+@ *+*
+@X..+X
+@ *.*
+@  X
+EmptyPosition=DIRV4_LurD
+
+@  X
+@ *+*
+@X..+X
+@ *+*
+@  X
+EmptyPosition=DIRV4_Lurd
+
+@  X
+@ *.*
+@X...X
+@    
+@   
+EmptyPosition=DIRV4_LURd
+
+@  X
+@ *+*
+@X...X
+@    
+@   
+EmptyPosition=DIRV4_LuRd
+
+@  X
+@ *.*
+@X..+X
+@    
+@   
+EmptyPosition=DIRV4_LUrd
+
+@  X
+@ *+*
+@X..+X
+@    
+@   
+EmptyPosition=DIRV4_Lurd
+
+@  X
+@ *.*
+@X+.+X
+@    
+@   
+EmptyPosition=DIRV4_lUrd
+
+@  X
+@ *+ 
+@X..  
+@    
+@   
+EmptyPosition=DIRV4_Lurd

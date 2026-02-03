@@ -1,0 +1,406 @@
+# The VALUE indicates the two grids of the cut
+
+#小飛
+@  X 
+@ *Bw 
+@X*.WX
+@ *wB 
+@  X
+BlackEdge=DIRV8_lxUxrXdx
+BlackWeakCutTwoSidePoint=DIRV8_lxuxRxDx
+BlackEdgeIsBorder=FALSE
+BlackWeakCut=DIRV8_lxUxrXdx
+BlackWeakCutSecondMainPoint=DIR4_R
+
+#小飛
+@  X 
+@ *Bw 
+@X*W.X
+@ *wB 
+@  X
+BlackEdge=DIRV8_lxUxrXdx
+BlackWeakCutTwoSidePoint=DIRV8_lxuxRxDx
+BlackEdgeIsBorder=FALSE
+BlackWeakCut=DIRV8_lxUxrXdx
+BlackWeakCutSecondMainPoint=DIR4_R
+
+#一間跳
+@  X 
+@ WBW 
+@Xw.wX
+@ WBW 
+@  X
+BlackEdge=DIRV8_lxUxrxDx
+BlackWeakCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=FALSE
+BlackWeakCut=DIRV8_lxUxrxDx
+
+#一間跳
+@  X 
+@ wBw 
+@XW.WX
+@ wBw 
+@  X
+BlackEdge=DIRV8_lxUxrxDx
+BlackWeakCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=FALSE
+BlackWeakCut=DIRV8_lxUxrxDx
+
+#一間跳
+@  X 
+@ WBw 
+@Xw.WX
+@ WBw 
+@  X
+BlackEdge=DIRV8_lxUxrxDx
+BlackWeakCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=FALSE
+BlackWeakCut=DIRV8_lxUxrxDx
+
+#一間跳
+@  X 
+@ WBW 
+@Xw.wX
+@ wBw 
+@  X
+BlackEdge=DIRV8_lxUxrxDx
+BlackWeakCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=FALSE
+BlackWeakCut=DIRV8_lxUxrxDx
+
+#一間跳
+@  X 
+@ .Bw 
+@X.WWX
+@ wBw 
+@  X
+BlackEdge=DIRV8_lxUxrxDx
+BlackWeakCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=FALSE
+BlackWeakCut=DIRV8_lxUxrxDx
+
+#一間跳
+@  X 
+@ wB. 
+@XwW.X
+@ wBw 
+@  X
+BlackEdge=DIRV8_lxUxrxDx
+BlackWeakCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=FALSE
+BlackWeakCut=DIRV8_lxUxrxDx
+
+#一間跳
+@  X 
+@ wBw 
+@XW.wX
+@ wBw 
+@  X
+BlackEdge=DIRV8_lxUxrxDx
+BlackWeakCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=FALSE
+BlackWeakCut=DIRV8_lxUxrxDx
+
+
+#雙
+@  X 
+@ *BB 
+@XwW.X
+@ *BB 
+@  X
+BlackEdge=DIRV8_lxUxrxDx
+BlackWeakCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=FALSE
+BlackWeakCut=DIRV8_lxUxrxDx
+
+#雙
+@  X 
+@ *BB 
+@Xw.WX
+@ *BB 
+@  X
+BlackEdge=DIRV8_lxUxrxDx
+BlackWeakCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=FALSE
+BlackWeakCut=DIRV8_lxUxrxDx
+
+#雙
+@  X 
+@ *BB 
+@X.WwX
+@ *BB 
+@  X
+BlackEdge=DIRV8_lxUxrxDx
+BlackWeakCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=FALSE
+BlackWeakCut=DIRV8_lxUxrxDx
+
+#雙
+@  X 
+@ *BB 
+@X.wWX
+@ *BB 
+@  X
+BlackEdge=DIRV8_lxUxrxDx
+BlackWeakCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=FALSE
+BlackWeakCut=DIRV8_lxUxrxDx
+
+#半雙
+@  X 
+@ WBw 
+@Xw.WX
+@ WBB 
+@  X
+BlackEdge=DIRV8_lxUxrxDx
+BlackWeakCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=FALSE
+BlackWeakCut=DIRV8_lxUxrxDx
+
+#半雙
+@  X 
+@ *BW 
+@Xw.WX
+@ *BB 
+@  X
+BlackEdge=DIRV8_lxUxrxDx
+BlackWeakCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=FALSE
+BlackWeakCut=DIRV8_lxUxrxDx
+
+#半雙
+@  X 
+@ *BW 
+@XW.wX
+@ *BB 
+@  X
+BlackEdge=DIRV8_lxUxrxDx
+BlackWeakCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=FALSE
+BlackWeakCut=DIRV8_lxUxrxDx
+
+#半雙
+@  X 
+@ *Bw 
+@XW.WX
+@ *BB 
+@  X
+BlackEdge=DIRV8_lxUxrxDx
+BlackWeakCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=FALSE
+BlackWeakCut=DIRV8_lxUxrxDx
+
+#半雙
+@  X 
+@ *Bw 
+@X.WwX
+@ *BB 
+@  X
+BlackEdge=DIRV8_lxUxrxDx
+BlackWeakCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=FALSE
+BlackWeakCut=DIRV8_lxUxrxDx
+
+#半雙
+@  X 
+@ *Bw 
+@XwW.X
+@ *BB 
+@  X
+BlackEdge=DIRV8_lxUxrxDx
+BlackWeakCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=FALSE
+BlackWeakCut=DIRV8_lxUxrxDx
+
+#象飛
+@  X 
+@ Bww 
+@Xw..X
+@ w.B 
+@  X
+BlackEdge=DIRV8_lXuxrXdx
+BlackWeakCutTwoSidePoint=DIRV8_lxuXrxdX
+BlackEdgeIsBorder=FALSE
+BlackWeakCut=DIRV8_lXuxrXdx
+
+#象飛
+@  X 
+@ B.w 
+@Xw.wX
+@ w.B 
+@  X
+BlackEdge=DIRV8_lXuxrXdx
+BlackWeakCutTwoSidePoint=DIRV8_lxuXrxdX
+BlackEdgeIsBorder=FALSE
+BlackWeakCut=DIRV8_lXuxrXdx
+
+#象飛
+@  X 
+@ Bww 
+@X..wX
+@ w.B 
+@  X
+BlackEdge=DIRV8_lXuxrXdx
+BlackWeakCutTwoSidePoint=DIRV8_lxuXrxdX
+BlackEdgeIsBorder=FALSE
+BlackWeakCut=DIRV8_lXuxrXdx
+
+#象飛
+@  X 
+@ B.. 
+@X.w.X
+@ ..B 
+@  X
+BlackEdge=DIRV8_lXuxrXdx
+BlackWeakCutTwoSidePoint=DIRV8_lxuXrxdX
+BlackEdgeIsBorder=FALSE
+BlackWeakCut=DIRV8_lXuxrXdx
+
+#邊緣
+#@  X 
+#@ 1B1 
+#@X1.1X
+#@     
+#@     
+#:1=w2
+#BlackEdge=DIRV8_lxUxrxDx
+#BlackWeakCutTwoSidePoint=DIRV8_LxuxRxdx
+#BlackEdgeIsBorder=TRUE
+#BlackWeakCut=DIRV8_lxUxrxDx
+
+#Two White
+@  X 
+@ WB. 
+@XW..X
+@     
+@     
+BlackEdge=DIRV8_lxUxrxDx
+BlackWeakCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=TRUE
+BlackWeakCut=DIRV8_lxUxrxDx
+
+@  X 
+@ WB. 
+@X..WX
+@     
+@     
+BlackEdge=DIRV8_lxUxrxDx
+BlackWeakCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=TRUE
+BlackWeakCut=DIRV8_lxUxrxDx
+
+@  X 
+@ WBW 
+@X...X
+@     
+@     
+BlackEdge=DIRV8_lxUxrxDx
+BlackWeakCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=TRUE
+BlackWeakCut=DIRV8_lxUxrxDx
+
+@  X 
+@ .BW 
+@XW..X
+@     
+@     
+BlackEdge=DIRV8_lxUxrxDx
+BlackWeakCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=TRUE
+BlackWeakCut=DIRV8_lxUxrxDx
+
+@  X 
+@ .BW 
+@X..WX
+@     
+@     
+BlackEdge=DIRV8_lxUxrxDx
+BlackWeakCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=TRUE
+BlackWeakCut=DIRV8_lxUxrxDx
+
+@  X 
+@ .B. 
+@XW.WX
+@     
+@     
+BlackEdge=DIRV8_lxUxrxDx
+BlackWeakCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=TRUE
+BlackWeakCut=DIRV8_lxUxrxDx
+
+#Three White
+@  X 
+@ .BW 
+@XW.WX
+@     
+@     
+BlackEdge=DIRV8_lxUxrxDx
+BlackWeakCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=TRUE
+BlackWeakCut=DIRV8_lxUxrxDx
+
+@  X 
+@ WBW 
+@X..WX
+@     
+@     
+BlackEdge=DIRV8_lxUxrxDx
+BlackWeakCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=TRUE
+BlackWeakCut=DIRV8_lxUxrxDx
+
+@  X 
+@ WB. 
+@XW.WX
+@     
+@     
+BlackEdge=DIRV8_lxUxrxDx
+BlackWeakCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=TRUE
+BlackWeakCut=DIRV8_lxUxrxDx
+
+@  X 
+@ WBW 
+@XW..X
+@     
+@     
+BlackEdge=DIRV8_lxUxrxDx
+BlackWeakCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=TRUE
+BlackWeakCut=DIRV8_lxUxrxDx
+
+#Four white
+@  X 
+@ WBW 
+@XW.WX
+@     
+@     
+BlackEdge=DIRV8_lxUxrxDx
+BlackWeakCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=TRUE
+BlackWeakCut=DIRV8_lxUxrxDx
+
+
+#邊緣
+@  X 
+@ WB. 
+@X.W.X
+@     
+@     
+BlackEdge=DIRV8_lxUxrxDx
+BlackWeakCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=TRUE
+BlackWeakCut=DIRV8_lxUxrxDx
+
+#特殊判斷角落edge，此pattern的B為棋盤上B2的位置(在程式中判斷)，此pattern若不是在角落會是strong cut
+@  X 
+@ WBb 
+@X...X
+@     
+@     
+BlackCornerWeakCut=TRUE
+BlackEdge=DIRV8_lxUxrxDx
+BlackWeakCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=TRUE
+#BlackWeakCut=DIRV8_lxUxrxDx

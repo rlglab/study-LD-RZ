@@ -1,0 +1,143 @@
+@  X
+@ BBw
+@XB.BX
+@ BBw
+@  X
+BlackFalseEye=DIRV4_lxuXrXdx
+
+@  X
+@ BBw
+@XB.BX
+@ wBB
+@  X
+BlackFalseEye=DIRV4_lxuXrxdX
+
+@  X
+@ wBw
+@XB.BX
+@ BBw
+@  X
+BlackFalseEye=DIRV4_lXuXrXdx
+
+@  X
+@ wBw
+@XB.BX
+@ wBw
+@  X
+BlackFalseEye=DIRV4_lXuXrXdX
+
+@  X
+@  Bw
+@  .BX
+@  BB
+@  X
+BlackFalseEye=DIRV4_lxuXrxdx
+
+@  X
+@  Bw
+@  .BX
+@  Bw
+@  X
+BlackFalseEye=DIRV4_lxuXrXdx
+
+@  X
+@  Bw
+@  .BX
+@    
+@   
+BlackFalseEye=DIRV4_lxuXrxdx
+
+@  X
+@ BWB
+@XWBWX
+@ W.w
+@  X
+WhiteSize3FalseEye=true
+
+@  X
+@ BWB
+@XWBWX
+@ WBw
+@  X
+WhiteSize3FalseEye=true
+
+@  X
+@ BWB
+@XW.WX
+@ WBw
+@  X
+WhiteSize3FalseEye=true
+
+@  X
+@ BW.
+@XWBWX
+@ WBw
+@  X
+WhiteSize3FalseEye=true
+WhiteSize3FalseEyeCheckDir=DIRV8_lxuXrxdx
+
+@  X
+@ .WB
+@XWBWX
+@ WBw
+@  X
+WhiteSize3FalseEye=true
+
+@  X
+@  WB
+@  BWX
+@  BW
+@  X
+WhiteSize3FalseEye=true
+WhiteSize3FalseEyeCheckDir=DIRV8_lxuXrxdx
+
+@  X
+@  WB
+@  BWX
+@  B.
+@  X
+WhiteSize3FalseEye=true
+
+@  X
+@  WB
+@  BWX
+@  ..
+@  X
+WhiteSize3FalseEye=true
+
+@  X
+@  WB
+@  .WX
+@  B.
+@  X
+WhiteSize3FalseEye=true
+
+@  X
+@  WB
+@  BWX
+@  .W
+@  X
+WhiteSize3FalseEye=true
+
+@  X
+@  WB
+@  .WX
+@  BW
+@  X
+WhiteSize3FalseEye=true
+
+@  X
+@  W.
+@  BWX
+@  BW
+@  X
+WhiteSize3FalseEye=true
+WhiteSize3FalseEyeCheckDir=DIRV8_lxuXrxdx
+
+@  X
+@  W.
+@  BWX
+@  B.
+@  X
+WhiteSize3FalseEye=true
+WhiteSize3FalseEyeCheckDir=DIRV8_lxuXrxdx

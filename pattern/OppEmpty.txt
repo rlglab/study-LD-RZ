@@ -1,0 +1,15 @@
+#direction indicate that is opponent or empty grid
+
+@  X
+@ XXX
+@Xw.XX
+@ XXX
+@  X
+BlackOppEmpty=DIR4_L
+
+@  X
+@ XXX
+@Xb.XX
+@ XXX
+@  X
+WhiteOppEmpty=DIR4_L

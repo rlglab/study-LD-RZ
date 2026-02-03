@@ -1,0 +1,215 @@
+#下在角落(0)
+@  X  
+@ ww  
+@XwB  
+@     
+@     
+BlackStartCAPosition=DIRV8_Lxuxrxdx
+BlackIsSplitCA=false
+
+#下在角落(0)
+@  X  
+@ Bw  
+@XwB  
+@     
+@     
+BlackStartCAPosition=DIRV8_LxUxrxdx
+BlackIsSplitCA=true
+
+#下在角落(1)
+@  X  
+@ *B  
+@XwB  
+@     
+@     
+BlackStartCAPosition=DIRV8_Lxuxrxdx
+BlackIsSplitCA=false
+
+#黏到牆壁(0)
+@  X  
+@ www 
+@XwBwX
+@     
+@     
+BlackStartCAPosition=DIRV8_Lxuxrxdx
+BlackIsSplitCA=false
+
+#黏到牆壁(0)
+@  X  
+@ Bww 
+@XwBwX
+@     
+@     
+BlackStartCAPosition=DIRV8_LxUxrxdx
+BlackIsSplitCA=true
+
+#黏到牆壁(0)
+@  X  
+@ BwB 
+@XwBwX
+@     
+@     
+BlackStartCAPosition=DIRV8_LxUxRxdx
+BlackIsSplitCA=true
+
+#黏到牆壁(1)
+@  X  
+@ *B* 
+@XwBwX
+@     
+@     
+BlackStartCAPosition=DIRV8_LxuxRxdx
+BlackIsSplitCA=true
+
+#黏到牆壁(1)
+@  X  
+@ *ww 
+@XBBwX
+@     
+@     
+BlackStartCAPosition=DIRV8_lxuxRxdx
+BlackIsSplitCA=false
+
+#黏到牆壁(1)
+@  X  
+@ *wB 
+@XBBwX
+@     
+@     
+BlackStartCAPosition=DIRV8_lxUxRxdx
+BlackIsSplitCA=true
+
+#黏到牆壁(2)
+@  X  
+@ *w* 
+@XBBBX
+@     
+@     
+BlackStartCAPosition=DIRV8_lxUxrxdx
+BlackIsSplitCA=false
+
+#黏到牆壁(2)
+@  X  
+@ *B* 
+@XBBwX
+@     
+@     
+BlackStartCAPosition=DIRV8_lxuxRxdx
+BlackIsSplitCA=false
+
+#中間子黏接(0)
+@  X  
+@ www 
+@XwBwX
+@ www 
+@  X  
+BlackStartCAPosition=DIRV8_Lxuxrxdx
+BlackIsSplitCA=false
+
+#中間子黏接(0)
+@  X  
+@ Bww 
+@XwBwX
+@ www 
+@  X  
+BlackStartCAPosition=DIRV8_Lxuxrxdx
+BlackIsSplitCA=false
+
+#中間子黏接(0)
+@  X  
+@ BwB 
+@XwBwX
+@ www 
+@  X  
+BlackStartCAPosition=DIRV8_LxUxrxdx
+BlackIsSplitCA=true
+
+#中間子黏接(0)
+@  X  
+@ Bww 
+@XwBwX
+@ wwB 
+@  X  
+BlackStartCAPosition=DIRV8_LxUxrxdx
+BlackIsSplitCA=true
+
+#中間子黏接(0)
+@  X  
+@ BwB 
+@XwBwX
+@ wwB 
+@  X  
+BlackStartCAPosition=DIRV8_LxUxRxdx
+BlackIsSplitCA=true
+
+#中間子黏接(0)
+@  X  
+@ BwB 
+@XwBwX
+@ BwB 
+@  X  
+BlackStartCAPosition=DIRV8_LxUxRxDx
+BlackIsSplitCA=true
+
+#中間子黏接(1)
+@  X  
+@ *B* 
+@XwBwX
+@ www 
+@  X  
+BlackStartCAPosition=DIRV8_Lxuxrxdx
+BlackIsSplitCA=false
+
+#中間子黏接(1)
+@  X  
+@ *B* 
+@XwBwX
+@ Bww 
+@  X  
+BlackStartCAPosition=DIRV8_LxuxrxDx
+BlackIsSplitCA=true
+
+#中間子黏接(1)
+@  X  
+@ *B* 
+@XwBwX
+@ BwB 
+@  X  
+BlackStartCAPosition=DIRV8_LxuxRxDx
+BlackIsSplitCA=true
+
+#中間子黏接(2)
+@  X  
+@ *B* 
+@XwBwX
+@ *B* 
+@  X  
+BlackStartCAPosition=DIRV8_LxuxRxdx
+BlackIsSplitCA=true
+
+#中間子黏接(2)
+@  X  
+@ *ww 
+@XBBwX
+@ *B* 
+@  X  
+BlackStartCAPosition=DIRV8_lxUxrxdx
+BlackIsSplitCA=false
+
+#中間子黏接(2)
+@  X  
+@ *wB 
+@XBBwX
+@ *B* 
+@  X  
+BlackStartCAPosition=DIRV8_lxUxRxdx
+BlackIsSplitCA=true
+
+#中間子黏接(3)
+@  X  
+@ *w* 
+@XBBBX
+@ *B* 
+@  X  
+BlackStartCAPosition=DIRV8_lxUxrxdx
+BlackIsSplitCA=false

@@ -1,0 +1,87 @@
+# 3 nodes
+@  X
+@ WWW
+@Xb.bX
+@ WWW
+@  X
+BlackPushCenter3Nodes=TRUE
+
+@  X
+@ WWW
+@Xb.bX
+@    
+@   
+BlackPushCenter3Nodes=TRUE
+
+@  X
+@ WbW
+@XW.bX
+@ *WW
+@  X
+BlackPushCenter3Nodes=TRUE
+
+@  X
+@ WbW
+@XW.bX
+@    
+@   
+BlackPushCenter3Nodes=TRUE
+
+@  X
+@  bW
+@  .bX
+@    
+@   
+BlackPushCenter3Nodes=TRUE
+
+# 4 nodes
+@  X
+@ WWW
+@Xb.bX
+@ WbW
+@  X
+BlackPushCenter4Nodes=TRUE
+
+@   
+@    
+@Xb.bX
+@ WbW
+@  X
+BlackPushCenter4Nodes=TRUE
+
+# 5 nodes
+@  X
+@ bbW
+@Xb.bX
+@ WWW
+@  X
+BlackPushCenter5Nodes=TRUE
+
+@  X
+@ bbW
+@Xb.bX
+@     
+@     
+BlackPushCenter5Nodes=TRUE
+
+@  X
+@ WWW
+@Xb.bX
+@ Wbb 
+@  X  
+BlackPushCenter5Nodes=TRUE
+
+@  X
+@ WbW
+@Xb.bX
+@ WbW
+@  X
+BlackPushCenter5Nodes=TRUE
+
+# 6 nodes
+@  X
+@ bbW
+@Xb.bX
+@ WbW
+@  X
+BlackPushCenter6Nodes=TRUE

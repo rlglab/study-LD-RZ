@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{7ae7949e-2ba1-42da-891e-82159c78c80a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pattern">
+      <UniqueIdentifier>{3c6e86cb-13c8-4b86-93ae-c6d877bef356}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CGI\Pattern33Parser.cpp">
+      <Filter>Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CGI\PatternUtils.cpp">
+      <Filter>Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="PatternGenerator.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\CGI\Pattern33Parser.h">
+      <Filter>Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CGI\PatternUtils.h">
+      <Filter>Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="PatternGenerator.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CGI\Pattern33Regex.h">
+      <Filter>Pattern</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

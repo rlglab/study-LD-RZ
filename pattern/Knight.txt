@@ -1,0 +1,10 @@
+#knight
+
+@  X
+@ *Bw
+@X*..X
+@ *.B
+@  X
+BlackKnight=DIRV8_lxUxrXdx
+BlackKnightThreat1=DIR4_R
+BlackKnightThreat2=DIRV8_lxuXrxDx

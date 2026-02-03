@@ -1,0 +1,13 @@
+@  X
+@ BWW
+@XW..X
+@ BWW
+@  X
+BlackReduceEye=DIR4_L
+
+@  X
+@  WB
+@  .WX
+@  .W
+@  X
+BlackReduceEye=DIR4_U

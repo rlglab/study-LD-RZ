@@ -1,0 +1,41 @@
+@  X
+@ *B*
+@XB.BX
+@ *B*
+@  X
+BlackTerritory=1
+
+@  X
+@  B*
+@  .BX
+@  B*
+@  X
+BlackTerritory=1
+
+@  X
+@  B*
+@  .BX
+@    
+@   
+BlackTerritory=1
+
+@  X
+@ *W*
+@XW.WX
+@ *W*
+@  X
+WhiteTerritory=1
+
+@  X
+@  W*
+@  .WX
+@  W*
+@  X
+WhiteTerritory=1
+
+@  X
+@  W*
+@  .WX
+@    
+@   
+WhiteTerritory=1

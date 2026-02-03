@@ -1,0 +1,104 @@
+# direction indicate the empty grid (or no any empty grid adjacent to it)
+
+@  X
+@ *B*
+@Xw.BX
+@ *B*
+@  X
+BlackTigerMouth=DIR4_L
+
+@  X
+@ *B*
+@X.wBX
+@ *B*
+@  X
+BlackTigerMouth=DIR4_L
+
+#以下兩個"BlackTigerThreats" pattern 由上面的pattern往左移動而來
+@  X 
+@ **B 
+@X*wwX
+@ **B 
+@  X
+BlackTigerThreats=DIRV8_LxUxRxDx
+
+@  X 
+@  *B 
+@  wwX
+@  *B 
+@  X
+BlackTigerThreats=DIRV8_lxUxRxDx
+
+@  X
+@ *B*
+@Xw.BX
+@    
+@   
+BlackTigerMouth=DIR4_L
+
+@  X
+@ *B*
+@X.wBX
+@    
+@   
+BlackTigerMouth=DIR4_L
+
+#以下兩個"BlackTigerThreats" pattern 由上面的pattern往左移動而來
+@  X
+@ **B
+@X**wX
+@    
+@   
+BlackTigerThreats=DIRV8_LxUxRxdx
+
+@  X 
+@  *B 
+@  *wX
+@    
+@    
+BlackTigerThreats=DIRV8_lxUxRxdx
+
+
+@  X
+@ *w*
+@XB.BX
+@    
+@   
+BlackTigerMouth=DIR4_U
+
+@  X
+@ w.*
+@XBwBX
+@    
+@   
+BlackTigerMouth=DIR4_U
+
+#以下"BlackTigerThreats" pattern 由上面的pattern往上移動而來
+@  X 
+@ *** 
+@Xw.*X
+@ BwB 
+@  X
+BlackTigerThreats=DIRV8_LxUxRxDx
+
+@  X
+@ *B 
+@Xw.  
+@    
+@   
+BlackTigerMouth=DIR4_L
+
+@  X
+@ *B 
+@X.w  
+@    
+@   
+BlackTigerMouth=DIR4_L
+
+#以下"BlackTigerThreats" pattern 由上面的pattern往左移動而來
+@  X
+@ **B
+@X*wwX
+@    
+@   
+BlackTigerThreats=DIRV8_LxUxRxdx

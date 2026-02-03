@@ -1,0 +1,168 @@
+define LADDER_UP_RIGHT		0
+define LADDER_UP_LEFT		1
+define LADDER_DOWN_RIGHT	2
+define LADDER_DOWN_LEFT		3
+define LADDER_RIGHT_UP		4
+define LADDER_RIGHT_DOWN	5
+define LADDER_LEFT_UP		6
+define LADDER_LEFT_DOWN		7
+
+@  X
+@ *.*
+@X+..X
+@ +BW
+@  X
+ROT=R(0)
+BlackIsLadder=true
+BlackLadderDir=DIR4_D
+BlackLadderType=LADDER_UP_RIGHT(3)
+
+@  X
+@  .*
+@  ..X
+@  BW
+@  X
+ROT=R(0)
+BlackIsLadder=true
+BlackLadderDir=DIR4_D
+BlackLadderType=LADDER_UP_RIGHT(3)
+
+@  X
+@ *.*
+@X..+X
+@ WB+
+@  X
+ROT=R(0)
+BlackIsLadder=true
+BlackLadderDir=DIR4_D
+BlackLadderType=LADDER_UP_LEFT(3)
+
+@  X
+@ *. 
+@X..  
+@ WB 
+@  X
+ROT=R(0)
+BlackIsLadder=true
+BlackLadderDir=DIR4_D
+BlackLadderType=LADDER_UP_LEFT(3)
+
+@  X
+@ +BW
+@X+..X
+@ *.*
+@  X
+ROT=R(0)
+BlackIsLadder=true
+BlackLadderDir=DIR4_U
+BlackLadderType=LADDER_DOWN_RIGHT(3)
+
+@  X
+@  BW
+@  ..X
+@  .*
+@  X
+ROT=R(0)
+BlackIsLadder=true
+BlackLadderDir=DIR4_U
+BlackLadderType=LADDER_DOWN_RIGHT(3)
+
+@  X
+@ WB+
+@X..+X
+@ *.*
+@  X
+ROT=R(0)
+BlackIsLadder=true
+BlackLadderDir=DIR4_U
+BlackLadderType=LADDER_DOWN_LEFT(3)
+
+@  X
+@ WB 
+@X..  
+@ *. 
+@  X
+ROT=R(0)
+BlackIsLadder=true
+BlackLadderDir=DIR4_U
+BlackLadderType=LADDER_DOWN_LEFT(3)
+
+@  X
+@ W.*
+@XB..X
+@ ++*
+@  X
+ROT=R(0)
+BlackIsLadder=true
+BlackLadderDir=DIR4_L
+BlackLadderType=LADDER_RIGHT_UP(3)
+
+@  X
+@ W.*
+@XB..X
+@    
+@   
+ROT=R(0)
+BlackIsLadder=true
+BlackLadderDir=DIR4_L
+BlackLadderType=LADDER_RIGHT_UP(3)
+
+@  X
+@ ++*
+@XB..X
+@ W.*
+@  X
+ROT=R(0)
+BlackIsLadder=true
+BlackLadderDir=DIR4_L
+BlackLadderType=LADDER_RIGHT_DOWN(3)
+
+@   
+@    
+@XB..X
+@ W.*
+@  X
+ROT=R(0)
+BlackIsLadder=true
+BlackLadderDir=DIR4_L
+BlackLadderType=LADDER_RIGHT_DOWN(3)
+
+@  X
+@ *.W
+@X..BX
+@ *++
+@  X
+ROT=R(0)
+BlackIsLadder=true
+BlackLadderDir=DIR4_R
+BlackLadderType=LADDER_LEFT_UP(3)
+
+@  X
+@ *.W
+@X..BX
+@    
+@   
+ROT=R(0)
+BlackIsLadder=true
+BlackLadderDir=DIR4_R
+BlackLadderType=LADDER_LEFT_UP(3)
+
+@  X
+@ *++
+@X..BX
+@ *.W
+@  X
+ROT=R(0)
+BlackIsLadder=true
+BlackLadderDir=DIR4_R
+BlackLadderType=LADDER_LEFT_DOWN(3)
+
+@    
+@    
+@X..BX
+@ *.W
+@  X
+ROT=R(0)
+BlackIsLadder=true
+BlackLadderDir=DIR4_R
+BlackLadderType=LADDER_LEFT_DOWN(3)

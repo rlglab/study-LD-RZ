@@ -1,0 +1,45 @@
+CGI/CMakeFiles/
+CGI/cmake_install.cmake
+CGI/~AutoRecover.CGI.vcxproj
+CMakeCache.txt
+CMakeFiles/
+MCTPS/cmake_install.cmake
+Makefile
+balanced_changekomi_json
+cmake_install.cmake
+paper_json
+Debug/
+Release/
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app

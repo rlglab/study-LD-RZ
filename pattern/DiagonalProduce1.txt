@@ -1,0 +1,41 @@
+@  X 
+@ B.* 
+@X..*X
+@ *** 
+@  X
+BlackDiagonalProduce=true
+
+@  X 
+@ W.* 
+@X..*X
+@ *** 
+@  X
+WhiteDiagonalProduce=true
+
+@  X
+@ B.*
+@X..*X
+@     
+@     
+BlackDiagonalProduce=true
+
+@  X
+@ W.*
+@X..*X
+@     
+@     
+WhiteDiagonalProduce=true
+
+@  *
+@  .B
+@  ..*
+@     
+@     
+BlackDiagonalProduce=true
+
+@  *
+@  .W
+@  ..*
+@     
+@     
+WhiteDiagonalProduce=true

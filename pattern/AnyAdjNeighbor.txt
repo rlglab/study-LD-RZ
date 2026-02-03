@@ -1,0 +1,20 @@
+@  X
+@ *B*
+@X*.*X
+@ ***
+@  X
+BlackAnyAdjNeighbor=DIR4_U
+
+@  X
+@  B*
+@  .*X
+@  **
+@  X
+BlackAnyAdjNeighbor=DIR4_U
+
+@  X
+@  B*
+@  .*X
+@     
+@   
+BlackAnyAdjNeighbor=DIR4_U

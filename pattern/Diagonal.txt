@@ -1,0 +1,35 @@
+@  X 
+@ *Bw 
+@X*.BX
+@ *** 
+@  X
+BlackDiagonal=DIR4D_UR
+
+@  X 
+@ *B. 
+@X*wBX
+@ *** 
+@  X
+BlackDiagonal=DIR4D_UR
+
+@  X
+@ *Bw
+@X*.BX
+@     
+@     
+BlackDiagonal=DIR4D_UR
+
+@  X
+@ *B.
+@X*wBX
+@     
+@     
+BlackDiagonal=DIR4D_UR
+
+@  *
+@  Bw
+@  .B*
+@     
+@     
+BlackDiagonal=DIR4D_UR
+

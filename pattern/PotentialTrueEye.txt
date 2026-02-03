@@ -1,0 +1,32 @@
+#可能為真眼的定義是,讓我一直下我就可以把他變真眼
+
+#中央最多只能被佔到一個
+@  X
+@ bBb
+@XB.BX
+@ bBb
+@  X
+BlackPotentialTrueEye=true
+
+@  X
+@ bBw
+@XB.BX
+@ bBb
+@  X
+BlackPotentialTrueEye=true
+
+#邊不能被佔到任何一個
+@  X
+@  Bb
+@  .BX
+@  Bb
+@  X
+BlackPotentialTrueEye=true
+
+#角不能被佔到任何一個
+@  X
+@  Bb
+@  .BX
+@    
+@   
+BlackPotentialTrueEye=true

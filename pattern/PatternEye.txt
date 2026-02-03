@@ -1,0 +1,90 @@
+@  X  
+@ BB. 
+@Xw.BX
+@     
+@     
+BlackCheckDiagonal=true
+BlackCheckDiagonalDir=DIRV8_lxuXrxdx
+
+@  X  
+@ *B. 
+@XB..X
+@     
+@     
+BlackTryMakeSpecialEye=true
+BlackTryMakeSpecialEyeExtendDir=DIR4_R
+BlackTryMakeSpecialEyeCapDir=DIR4_U
+BlackTryMakeSpecialEyeEnemyDir=DIRV8_lXuxrxdx
+BlackTryMakeSpecialEyeTwoLibCheck=DIR4_L
+
+@  X
+@  .W
+@  .WX
+@     
+@   
+WhiteOnelinePatternEyeTypeIExtendDir=DIR4_U
+WhiteOnelinePatternEyeTypeICapDir=DIR4_R
+
+@  X  
+@ *WW 
+@XW..X
+@     
+@     
+WhiteOnelinePatternEyeTypeIExtendDir=DIR4_R
+WhiteOnelinePatternEyeTypeICapDir=DIR4_U
+
+@  X  
+@ bWW 
+@XW..X
+@     
+@     
+WhiteOnelinePatternEyeTypeICheckEnemy=DIRV8_lXuxrxdx
+WhiteOnelinePatternEyeTypeITwoLibCheck=DIR4_L
+
+@  X  
+@ bWW 
+@X...X
+@     
+@     
+WhiteMakeSplitToOnelinePatternEye=DIR4_L
+WhiteMakeSplitToOnelinePatternEyeExtendDir=DIR4_R
+WhiteMakeSplitToOnelinePatternEyeCapDir=DIR4_U
+WhiteMakeSplitToOnelinePatternEyeEnemyDir=DIRV8_lXuxrxdx
+
+# MiaiDir means that when the opponent play at the grid, then what should be the next move that would should reply.
+@  X 
+@ wW. 
+@X...X
+@     
+@     
+WhiteWallJump=True
+WhiteWallJumpMiaiDir=DIR4_R
+
+@  X 
+@ wW* 
+@XWbWX
+@ Wb. 
+@  X
+WhiteOnelinePatternEyeTypeLExtendDir=DIR4_R
+WhiteOnelinePatternEyeTypeLBottomDir=DIR4_D
+
+@  X
+@ W..
+@XB.WX
+@     
+@     
+WhiteOneLineCaptureDiagonal=true
+
+@  X
+@ WWW
+@XWB.X
+@     
+@     
+WhiteOneLineOneStoneCaptureDiagonal=true
+
+@  X
+@ WW.
+@XB..X
+@     
+@     
+WhiteOneLineOneStoneNextCaptureDiagonal=true

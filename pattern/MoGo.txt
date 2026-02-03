@@ -1,0 +1,146 @@
+#MoGo Pattern
+
+#Patterns for Hane
+@  X
+@ BWB
+@X...X
+@ ***
+@  X
+BlackMoGoHane=true
+
+@  X
+@ WBW
+@X...X
+@ ***
+@  X
+BlackMoGoHane=true
+
+@  X
+@ BW.
+@X...X
+@ *.*
+@  X
+BlackMoGoHane=true
+
+@  X
+@ WB.
+@X...X
+@ *.*
+@  X
+BlackMoGoHane=true
+
+@  X
+@ BW*
+@XB..X
+@ *.*
+@  X
+BlackMoGoHane=true
+
+@  X
+@ WB*
+@XW..X
+@ *.*
+@  X
+BlackMoGoHane=true
+
+@  X
+@ BWW
+@X...X
+@ *.*
+@  X
+BlackMoGoHane=true
+
+#Patterns for Cut1
+@  X
+@ BW*
+@XW.*X
+@ ***
+@  X
+BlackMoGoCut1=true
+
+@  X
+@ WB*
+@XB.*X
+@ ***
+@  X
+BlackMoGoCut1=true
+
+@  X
+@ BW*
+@XW.WX
+@ *.*
+@  X
+BlackMoGoCut1Exclude=true
+
+@  X
+@ WB*
+@XB.BX
+@ *.*
+@  X
+BlackMoGoCut1Exclude=true
+
+#Patterns for Cut2
+
+@  X
+@ *B*
+@XW.WX
+@ bbb
+@  X
+BlackMoGoCut2=true
+
+@  X
+@ *W*
+@XB.BX
+@ www
+@  X
+BlackMoGoCut2=true
+
+#Patterns for Edge
+@  X
+@ B.*
+@XW.*X
+@    
+@   
+BlackMoGoEdge=true
+
+@  X
+@ W.*
+@XB.*X
+@    
+@   
+BlackMoGoEdge=true
+
+@  X
+@ *B*
+@Xw.WX
+@    
+@   
+BlackMoGoEdge=true
+
+@  X
+@ *W*
+@Xb.BX
+@    
+@   
+BlackMoGoEdge=true
+
+@  X
+@ *BW
+@X*.*X
+@    
+@   
+BlackMoGoEdge=true
+
+@  X
+@ *WB
+@X*.bX
+@    
+@   
+BlackMoGoEdge=true
+
+@  X
+@ *WB
+@XB.WX
+@    
+@   
+BlackMoGoEdge=true

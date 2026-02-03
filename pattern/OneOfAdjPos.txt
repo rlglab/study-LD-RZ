@@ -1,0 +1,29 @@
+# one of adjacent own neighbor stone(just for getLibertyAfterPlay use)
+
+@  X
+@ ***
+@XB.*X
+@ ***
+@  X
+BlackOneOfAdjPos=DIR4_L
+
+@  X
+@ ***
+@XB.*X
+@     
+@     
+BlackOneOfAdjPos=DIR4_L
+
+@  X
+@ *B*
+@X*.*X
+@     
+@     
+BlackOneOfAdjPos=DIR4_U
+
+@  X
+@  **
+@  .BX
+@     
+@     
+BlackOneOfAdjPos=DIR4_R

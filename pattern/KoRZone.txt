@@ -1,0 +1,35 @@
+@  X  
+@ *BW 
+@X.w.X
+@     
+@     
+WhiteKoRZoneCheck=DIR4_L
+
+@  X  
+@ *.W 
+@XBw.X
+@     
+@     
+WhiteKoRZoneCheck=DIR4_U
+
+@  X  
+@ *BW 
+@X.w.X
+@ *BW 
+@  X  
+WhiteKoRZoneCheck=DIR4_L
+
+@  X  
+@ *.W 
+@XBw.X
+@ *BW 
+@  X  
+WhiteKoRZoneCheck=DIR4_U
+
+@  X
+@  .W
+@  ..X
+@     
+@   
+WhiteKoRZoneCheck=DIR4_U
+

@@ -1,0 +1,114 @@
+# Size 4
+@  X
+@ wBw
+@XBBBX
+@ www
+@  X
+BlackNakade=TRUE
+
+@  X
+@ BBB
+@XwBwX
+@ www
+@  X
+BlackNakade=TRUE
+
+@  X
+@ wBw
+@XBBBX
+@    
+@   
+BlackNakade=TRUE
+
+@  X
+@ BBB
+@XwBwX
+@    
+@   
+BlackNakade=TRUE
+
+@  X
+@ BBw
+@XBBwX
+@ www
+@  X
+BlackNakade=TRUE
+
+@  X
+@ BBw
+@XBBwX
+@    
+@   
+BlackNakade=TRUE
+
+@  X
+@ BB 
+@XBB  
+@    
+@   
+BlackNakade=TRUE
+
+@  X
+@ .BB
+@XBB.X
+@ www
+@  X
+BlackSZNakade=TRUE
+
+@  X
+@ .BB
+@XBB.X
+@    
+@   
+BlackSZNakade=TRUE
+
+@  X
+@ *wB
+@XwwBX
+@ wBB
+@  X
+Black2LineNakade=DIRV8_lxuxRxDx
+
+# Size 5
+@  X
+@ wBB
+@XBBBX
+@ www
+@  X
+BlackNakade=TRUE
+
+@  X
+@ BBB
+@XwBBX
+@ www
+@  X
+BlackNakade=TRUE
+
+@  X
+@ wBB
+@XBBBX
+@    
+@   
+BlackNakade=TRUE
+
+@  X
+@ BBB
+@XwBBX
+@    
+@   
+BlackNakade=TRUE
+
+@  X
+@ wBw
+@XBBBX
+@ wBw
+@  X
+BlackNakade=TRUE
+
+# Size 6
+@  X
+@ wBB
+@XBBBX
+@ wBw
+@  X
+BlackNakade=TRUE

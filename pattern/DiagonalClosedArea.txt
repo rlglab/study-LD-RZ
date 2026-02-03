@@ -1,0 +1,44 @@
+# direction vector indicate opponent/ empty grids in adjacent, 
+#	or opponent/ empty grids adjancent with my grids in diagonal
+
+@  X
+@ BBw
+@XB.BX
+@ BBB
+@  X
+BlackDiagonalClosedArea=DIRV8_lxuXrxdx
+
+@  X
+@ WWb
+@XW.WX
+@ WWW
+@  X
+WhiteDiagonalClosedArea=DIRV8_lxuXrxdx
+
+@  X
+@ *Bw
+@Xw.BX
+@ *BB
+@  X
+BlackDiagonalClosedArea=DIRV8_LxuXrxdx
+
+@  X
+@ *Wb
+@Xb.WX
+@ *WW
+@  X
+WhiteDiagonalClosedArea=DIRV8_LxuXrxdx
+
+@  X
+@ *Bw
+@Xw.BX
+@ *w*
+@  X
+BlackDiagonalClosedArea=DIRV8_LxuXrxDx
+
+@  X
+@ *Wb
+@Xb.WX
+@ *b*
+@  X
+WhiteDiagonalClosedArea=DIRV8_LxuXrxDx

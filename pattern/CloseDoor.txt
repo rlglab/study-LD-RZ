@@ -1,0 +1,25 @@
+# direction indicate the block we have to check liberty (always the reverse direction of close door move)
+
+@  X 
+@ *.b 
+@X..BX
+@ .WB 
+@  X  
+BlackCloseDoor=DIR4_R
+BlackCloseDoorDir=DIR4_L
+
+@  X 
+@ b.* 
+@X..BX
+@ .WB 
+@  X  
+BlackCloseDoor=DIR4_R
+BlackCloseDoorDir=DIR4_L
+
+@  X 
+@ b.  
+@X..   
+@ .W   
+@  X  
+BlackLine1CloseDoor=true
+BlackCloseDoorDir=DIR4_L

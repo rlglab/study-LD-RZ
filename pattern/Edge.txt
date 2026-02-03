@@ -1,0 +1,666 @@
+#for all possible edge case (without rotation):
+#for pattern number:
+#@  X  
+#@ 415 
+#@X0.2X
+#@ 736 
+#@  X 
+#===============================================
+#for 4 case Diagonal:
+#Diagonal_RU
+@  X  
+@ *Bw 
+@X*wBX
+@ *** 
+@  X  
+ROT=R(0)
+Black1Diagonal_RD=True
+Black2Diagonal_LU=True
+
+#Diagonal_RU (At line 1)
+@  X  
+@ *Bw 
+@X*wBX
+@     
+@     
+ROT=R(0)
+Black1Diagonal_RD=True
+Black2Diagonal_LU=True
+
+#Diagonal_RU (At line 1)
+@  X  
+@  Bw 
+@  wBX
+@  ** 
+@  X  
+ROT=R(0)
+Black1Diagonal_RD=True
+Black2Diagonal_LU=True
+
+#Diagonal_RU (At line 1-1)
+@  X  
+@  Bw 
+@  wBX
+@     
+@     
+ROT=R(0)
+Black1Diagonal_RD=True
+Black2Diagonal_LU=True
+
+#Diagonal_RD
+@  X  
+@ *** 
+@X*wBX
+@ *Bw 
+@  X  
+ROT=R(0)
+Black2Diagonal_LD=True
+Black3Diagonal_RU=True
+
+#Diagonal_RD (At line 1)
+@     
+@     
+@X*wBX
+@ *Bw 
+@  X  
+ROT=R(0)
+Black2Diagonal_LD=True
+Black3Diagonal_RU=True
+
+#Diagonal_RD (At line 1)
+@  X   
+@  **   
+@  wBX
+@  Bw 
+@  X  
+ROT=R(0)
+Black2Diagonal_LD=True
+Black3Diagonal_RU=True
+
+#Diagonal_RD (At line 1-1)
+@     
+@     
+@  wBX
+@  Bw 
+@  X  
+ROT=R(0)
+Black2Diagonal_LD=True
+Black3Diagonal_RU=True
+
+#Diagonal_LD
+@  X  
+@ *** 
+@XBw*X
+@ wB* 
+@  X  
+ROT=R(0)
+Black0Diagonal_RD=True
+Black3Diagonal_LU=True
+
+#Diagonal_LD (At line 1)
+@     
+@     
+@XBw*X
+@ wB* 
+@  X  
+ROT=R(0)
+Black0Diagonal_RD=True
+Black3Diagonal_LU=True
+
+#Diagonal_LD (At line 1)
+@  X  
+@ **  
+@XBw  
+@ wB  
+@  X  
+ROT=R(0)
+Black0Diagonal_RD=True
+Black3Diagonal_LU=True
+
+#Diagonal_LD (At line 1-1)
+@     
+@     
+@XBw  
+@ wB  
+@  X  
+ROT=R(0)
+Black0Diagonal_RD=True
+Black3Diagonal_LU=True
+
+#Diagonal_LU
+@  X  
+@ wB* 
+@XBw*X
+@ *** 
+@  X  
+ROT=R(0)
+Black0Diagonal_RU=True
+Black1Diagonal_LD=True
+
+#Diagonal_LU (At line 1)
+@  X  
+@ wB* 
+@XBw*X
+@     
+@     
+ROT=R(0)
+Black0Diagonal_RU=True
+Black1Diagonal_LD=True
+
+#Diagonal_LU (At line 1)
+@  X  
+@ wB  
+@XBw  
+@ **  
+@  X  
+ROT=R(0)
+Black0Diagonal_RU=True
+Black1Diagonal_LD=True
+
+#Diagonal_LU (At line 1-1)
+@  X  
+@ wB  
+@XBw  
+@     
+@     
+ROT=R(0)
+Black0Diagonal_RU=True
+Black1Diagonal_LD=True
+#===============================================
+#for 2 case Jump:
+
+#Jump_RL
+@  X  
+@ www 
+@XB.BX
+@ www 
+@  X  
+ROT=R(0)
+Black0Jump_R=True
+Black2Jump_L=True
+
+#Jump_UD
+@  X  
+@ wBw 
+@Xw.wX
+@ wBw 
+@  X  
+ROT=R(0)
+Black1Jump_D=True
+Black3Jump_U=True
+#===============================================
+#for 8 case Knight:
+#Knight_L&RU
+@  X  
+@ w.B 
+@XB.wX
+@ *** 
+@  X  
+ROT=R(0)
+Black0Knight_RRU=True
+Black5Knight_LLD=True
+
+#Knight_L&RD
+@  X  
+@ *** 
+@XB.wX
+@ w.B 
+@  X  
+ROT=R(0)
+Black0Knight_RRD=True
+Black6Knight_LLU=True
+
+#Knight_U&RD
+@  X  
+@ *Bw 
+@X*..X
+@ *wB 
+@  X  
+ROT=R(0)
+Black1Knight_RDD=True
+Black6Knight_LUU=True
+
+#Knight_U&LD
+@  X  
+@ wB* 
+@X..*X
+@ Bw* 
+@  X  
+ROT=R(0)
+Black1Knight_LDD=True
+Black7Knight_RUU=True
+
+#Knight_R&LU
+@  X  
+@ B.w 
+@Xw.BX
+@ *** 
+@  X  
+ROT=R(0)
+Black4Knight_RRD=True
+Black2Knight_LLU=True
+
+#Knight_R&LD
+@  X  
+@ *** 
+@Xw.BX
+@ B.w 
+@  X  
+ROT=R(0)
+Black2Knight_LLD=True
+Black7Knight_RRU=True
+
+#Knight_D&RU
+@  X  
+@ *wB 
+@X*..X
+@ *Bw 
+@  X  
+ROT=R(0)
+Black5Knight_LDD=True
+Black3Knight_RUU=True
+
+#Knight_D&LU
+@  X  
+@ Bw* 
+@X..*X
+@ wB* 
+@  X  
+ROT=R(0)
+Black4Knight_RDD=True
+Black3Knight_LUU=True
+#===============================================
+#for 4 case Bamboo:
+#Bamboo_Stand-R
+@  X  
+@ wBB 
+@XwwwX
+@ wBB 
+@  X  
+ROT=R(0)
+Black1Bamboo_RD=True
+Black3Bamboo_RU=True
+
+#Bamboo_Stand-L
+@  X  
+@ BBw 
+@XwwwX
+@ BBw 
+@  X  
+ROT=R(0)
+Black1Bamboo_LD=True
+Black3Bamboo_LU=True
+
+#Bamboo_Down-U
+@  X  
+@ BwB 
+@XBwBX
+@ www 
+@  X  
+ROT=R(0)
+Black0Bamboo_UR=True
+Black2Bamboo_UL=True
+
+#Bamboo_Down-D
+@  X  
+@ www 
+@XBwBX
+@ BwB 
+@  X  
+ROT=R(0)
+Black0Bamboo_DR=True
+Black2Bamboo_DL=True
+#===============================================
+#for 8 case h-Bamboo:
+#h-Bamboo_Stand-LU
+@  X  
+@ wBB 
+@XwwwX
+@ BBB 
+@  X  
+ROT=R(0)
+Black1hBamboo_SLD=True
+Black3hBamboo_LLU=True
+
+#h-Bamboo_Stand-RU
+@  X  
+@ BBw 
+@XwwwX
+@ BBB 
+@  X  
+ROT=R(0)
+Black1hBamboo_SRD=True
+Black3hBamboo_LRU=True
+
+#h-Bamboo_Down-RD
+@  X  
+@ BwB 
+@XBwBX
+@ Bww 
+@  X  
+ROT=R(0)
+Black0hBamboo_LDR=True
+Black2hBamboo_SDL=True
+
+#h-Bamboo_Down-RU
+@  X  
+@ Bww 
+@XBwBX
+@ BwB 
+@  X  
+ROT=R(0)
+Black0hBamboo_LUR=True
+Black2hBamboo_SUL=True
+
+#h-Bamboo_Stand-RD
+@  X  
+@ BBB 
+@XwwwX
+@ BBw 
+@  X  
+ROT=R(0)
+Black1hBamboo_LRD=True
+Black3hBamboo_SRU=True
+
+#h-Bamboo_Stand-LD
+@  X  
+@ BBB 
+@XwwwX
+@ wBB 
+@  X  
+ROT=R(0)
+Black1hBamboo_LLD=True
+Black3hBamboo_SLU=True
+
+#h-Bamboo_Down-LU
+@  X  
+@ wwB 
+@XBwBX
+@ BwB 
+@  X  
+ROT=R(0)
+Black0hBamboo_SUR=True
+Black2hBamboo_LUL=True
+
+#h-Bamboo_Down-LD
+@  X  
+@ BwB 
+@XBwBX
+@ wwB 
+@  X  
+ROT=R(0)
+Black0hBamboo_SDR=True
+Black2hBamboo_LDL=True
+#===============================================
+#for 8 case L-Half-Bamboo:
+#L-Half-Bamboo_Down-R&L&RU
+@  X  
+@ wwB 
+@XBwBX
+@ www 
+@  X  
+ROT=R(0)
+Black0LHalfBamboo_SUR=True
+Black2LHalfBamboo_LUL=True
+
+#L-Half-Bamboo_Down-R&L&RD
+@  X  
+@ www 
+@XBwBX
+@ wwB 
+@  X  
+ROT=R(0)
+Black0LHalfBamboo_SDR=True
+Black2LHalfBamboo_LDL=True
+
+#L-Half-Bamboo_Stand-U&D&LD
+@  X  
+@ wBw 
+@XwwwX
+@ BBw 
+@  X  
+ROT=R(0)
+Black1LHalfBamboo_SLD=True
+Black3LHalfBamboo_LLU=True
+
+#L-Half-Bamboo_Stand-U&D&RD
+@  X  
+@ wBw 
+@XwwwX
+@ wBB 
+@  X  
+ROT=R(0)
+Black1LHalfBamboo_SRD=True
+Black3LHalfBamboo_LRU=True
+
+#L-Half-Bamboo_Down-L&R&LU
+@  X  
+@ Bww 
+@XBwBX
+@ www 
+@  X  
+ROT=R(0)
+Black0LHalfBamboo_LUR=True
+Black2LHalfBamboo_SUL=True
+
+#L-Half-Bamboo_Down-L&R&LD
+@  X  
+@ www 
+@XBwBX
+@ Bww 
+@  X  
+ROT=R(0)
+Black0LHalfBamboo_LDR=True
+Black2LHalfBamboo_SDL=True
+
+#L-Half-Bamboo_Stand-U&D&RU
+@  X  
+@ wBB 
+@XwwwX
+@ wBw 
+@  X  
+ROT=R(0)
+Black1LHalfBamboo_LRD=True
+Black3LHalfBamboo_SRU=True
+
+#L-Half-Bamboo_Stand-U&D&LU
+@  X  
+@ BBw 
+@XwwwX
+@ wBw 
+@  X  
+ROT=R(0)
+Black1LHalfBamboo_LLD=True
+Black3LHalfBamboo_SLU=True
+#===============================================
+#for 4 case Z-Half-Bamboo:
+#Z-Half-Bamboo_Stand-LU
+@  X  
+@ wBB 
+@XwwwX
+@ BBw 
+@  X  
+ROT=R(0)
+Black1ZHalfBamboo_RD=True
+Black3ZHalfBamboo_LU=True
+
+#Z-Half-Bamboo_Stand-RU
+@  X  
+@ BBw 
+@XwwwX
+@ wBB 
+@  X  
+ROT=R(0)
+Black1ZHalfBamboo_LD=True
+Black3ZHalfBamboo_RU=True
+
+#Z-Half-Bamboo_Down-RU
+@  X  
+@ Bww 
+@XBwBX
+@ wwB 
+@  X  
+ROT=R(0)
+Black0ZHalfBamboo_UR=True
+Black2ZHalfBamboo_DL=True
+
+#Z-Half-Bamboo_Down-LU
+@  X  
+@ wwB 
+@XBwBX
+@ Bww 
+@  X  
+ROT=R(0)
+Black0ZHalfBamboo_DR=True
+Black2ZHalfBamboo_UL=True
+#===============================================
+#for 4 case T-Half-Bamboo:
+#T-Half-Bamboo_Down-R
+@  X  
+@ wwB 
+@XBwBX
+@ wwB 
+@  X  
+ROT=R(0)
+Black0THalfBamboo_SR=True
+Black2THalfBamboo_LL=True
+
+#T-Half-Bamboo_Stand-D
+@  X  
+@ wBw 
+@XwwwX
+@ BBB 
+@  X  
+ROT=R(0)
+Black1THalfBamboo_SD=True
+Black3THalfBamboo_LU=True
+
+#T-Half-Bamboo_Down-L
+@  X  
+@ Bww 
+@XBwBX
+@ Bww 
+@  X  
+ROT=R(0)
+Black0THalfBamboo_LR=True
+Black2THalfBamboo_SL=True
+
+#T-Half-Bamboo_Stand-U
+@  X  
+@ BBB 
+@XwwwX
+@ wBw 
+@  X  
+ROT=R(0)
+Black1THalfBamboo_LD=True
+Black3THalfBamboo_SU=True
+#===============================================
+#for 4 case Wall-Jump:
+#WallJump-U
+@     
+@     
+@Xw.wX
+@ wBw 
+@  X  
+ROT=R(0)
+Black3WallJump_U=True
+
+#WallJump-R
+@  X  
+@ ww  
+@XB.  
+@ ww  
+@  X  
+ROT=R(0)
+Black0WallJump_R=True
+
+#WallJump-D
+@  X  
+@ wBw 
+@Xw.wX
+@     
+@  X  
+ROT=R(0)
+Black1WallJump_D=True
+
+#WallJump-L
+@  X  
+@  ww 
+@  .BX
+@  ww 
+@  X  
+ROT=R(0)
+Black2WallJump_L=True
+#===============================================
+#for 8 case Wall-Bamboo:
+#WallBamboo-RU
+@     
+@     
+@XwwwX
+@ wBB 
+@  X  
+ROT=R(0)
+Black3WallBamboo_RU=True
+
+#WallBamboo-LU
+@     
+@     
+@XwwwX
+@ BBw 
+@  X  
+ROT=R(0)
+Black3WallBamboo_LU=True
+
+#WallBamboo-DR
+@  X  
+@ ww  
+@XBw  
+@ Bw  
+@  X  
+ROT=R(0)
+Black0WallBamboo_DR=True
+
+#WallBamboo-UR
+@  X  
+@ Bw  
+@XBw  
+@ ww  
+@  X  
+ROT=R(0)
+Black0WallBamboo_UR=True
+
+#WallBamboo-RD
+@  X  
+@ wBB 
+@XwwwX
+@     
+@  X  
+ROT=R(0)
+Black1WallBamboo_RD=True
+
+#WallBamboo-LD
+@  X  
+@ BBw 
+@XwwwX
+@     
+@  X  
+ROT=R(0)
+Black1WallBamboo_LD=True
+
+#WallBamboo-DL
+@  X  
+@  ww 
+@  wBX
+@  wB 
+@  X  
+ROT=R(0)
+Black2WallBamboo_DL=True
+
+#WallBamboo-UL
+@  X  
+@  wB 
+@  wBX
+@  ww 
+@  X  
+ROT=R(0)
+Black2WallBamboo_UL=True

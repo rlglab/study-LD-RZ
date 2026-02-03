@@ -1,0 +1,227 @@
+# The VALUE indicates the two grids of the cut
+
+#邊緣
+#小w是為了實現連續雙出現時，位於中間的雙會略過不考慮，只考慮連續雙兩端的edge
+@  X 
+@ wBb 
+@X...X
+@     
+@     
+BlackEdge=DIRV8_lxUxrxDx
+BlackStrongCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=TRUE
+BlackStrongCut=DIRV8_lxUxrxDx
+
+#邊緣
+#特別判斷連續雙的型
+@  X 
+@ BBB 
+@X...X
+@     
+@     
+BlackSequentialBamboo=true
+
+#假邊緣尖，不算border edge
+@  X 
+@ *Bw 
+@X*wBX
+@     
+@    
+BlackEdge=DIRV8_lxUxRxdx
+BlackStrongCutTwoSidePoint=DIRV8_lxuXrxdx
+BlackEdgeIsBorder=FALSE
+BlackStrongCut=DIRV8_lxUxRxdx
+
+#角落尖，不算border edge
+@  X
+@  Bw
+@  .BX
+@    
+@   
+BlackEdge=DIRV8_lxUxRxdx
+BlackStrongCutTwoSidePoint=DIRV8_lxuXrxdx
+BlackEdgeIsBorder=FALSE
+BlackStrongCut=DIRV8_lxUxRxdx
+
+#多個尖
+@  X 
+@ wBw 
+@XBwBX
+@ *w* 
+@  X
+BlackEdgeIsBorder=FALSE
+BlackStrongCutTwoSidePoint1=DIRV8_lxuXrxdx
+BlackStrongCutTwoSidePoint2=DIRV8_lXuxrxdx
+BlackMultipleStrongCut1=DIRV8_lxUxRxdx
+BlackMultipleStrongCut2=DIRV8_LxUxrxdx
+
+#多個尖
+@  X 
+@ wBB 
+@XB.BX
+@ BBw 
+@  X
+BlackEdgeIsBorder=FALSE
+BlackStrongCutTwoSidePoint1=DIRV8_lXuxrxdx
+BlackStrongCutTwoSidePoint2=DIRV8_lxuxrXdx
+BlackMultipleStrongCut1=DIRV8_LxUxrxdx
+BlackMultipleStrongCut2=DIRV8_lxuxRxDx
+
+#多個尖
+@  X 
+@ wBw 
+@XB.BX
+@ BBB 
+@  X
+BlackEdgeIsBorder=FALSE
+BlackStrongCutTwoSidePoint1=DIRV8_lxuXrxdx
+BlackStrongCutTwoSidePoint2=DIRV8_lXuxrxdx
+BlackMultipleStrongCut1=DIRV8_lxUxRxdx
+BlackMultipleStrongCut2=DIRV8_LxUxrxdx
+
+#多個尖
+@  X 
+@ wBw 
+@XB.BX
+@ BBw 
+@  X
+BlackEdgeIsBorder=FALSE
+BlackStrongCutTwoSidePoint1=DIRV8_lxuXrxdx
+BlackStrongCutTwoSidePoint2=DIRV8_lXuxrxdx
+BlackStrongCutTwoSidePoint3=DIRV8_lxuxrXdx
+BlackMultipleStrongCut1=DIRV8_lxUxRxdx
+BlackMultipleStrongCut2=DIRV8_LxUxrxdx
+BlackMultipleStrongCut3=DIRV8_lxuxRxDx
+
+#多個尖
+@  X 
+@ wBw 
+@XB.BX
+@ wBw 
+@  X
+BlackEdgeIsBorder=FALSE
+BlackStrongCutTwoSidePoint1=DIRV8_lxuXrxdx
+BlackStrongCutTwoSidePoint2=DIRV8_lXuxrxdx
+BlackStrongCutTwoSidePoint3=DIRV8_lxuxrXdx
+BlackStrongCutTwoSidePoint4=DIRV8_lxuxrxdX
+BlackMultipleStrongCut1=DIRV8_lxUxRxdx
+BlackMultipleStrongCut2=DIRV8_LxUxrxdx
+BlackMultipleStrongCut3=DIRV8_lxuxRxDx
+BlackMultipleStrongCut4=DIRV8_LxuxrxDx
+
+#尖的形狀一定是strong cut
+@  X 
+@ *Bw 
+@X*wBX
+@ *** 
+@  X
+BlackEdge=DIRV8_lxUxRxdx
+BlackStrongCutTwoSidePoint=DIRV8_lxuXrxdx
+BlackEdgeIsBorder=FALSE
+BlackStrongCut=DIRV8_lxUxRxdx
+
+#小飛
+@  X 
+@ *Bw 
+@X*..X
+@ *wB 
+@  X
+BlackEdge=DIRV8_lxUxrXdx
+BlackStrongCutTwoSidePoint=DIRV8_lxuxRxDx
+BlackEdgeIsBorder=FALSE
+BlackStrongCut=DIRV8_lxUxrXdx
+BlackStrongCutSecondMainPoint=DIR4_R
+
+#一間跳
+@  X 
+@ .Bw 
+@X...X
+@ .Bw 
+@  X
+BlackEdge=DIRV8_lxUxrxDx
+BlackStrongCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=FALSE
+BlackStrongCut=DIRV8_lxUxrxDx
+
+#一間跳
+@  X 
+@ wB. 
+@X...X
+@ .Bw 
+@  X
+BlackEdge=DIRV8_lxUxrxDx
+BlackStrongCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=FALSE
+BlackStrongCut=DIRV8_lxUxrxDx
+
+#一間跳 已註解
+#@  X 
+#@ .B. 
+#@X.W.X
+#@ .B. 
+#@  X
+#BlackStrongCut=DIRV8_lxUxrxDx
+
+#雙
+@  X 
+@ wBB 
+@Xw..X
+@ *BB 
+@  X
+BlackEdge=DIRV8_lxUxrxDx
+BlackStrongCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=FALSE
+BlackStrongCut=DIRV8_lxUxrxDx
+
+#半雙
+@  X 
+@ *B. 
+@Xw..X
+@ *BB 
+@  X
+BlackEdge=DIRV8_lxUxrxDx
+BlackStrongCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=FALSE
+BlackStrongCut=DIRV8_lxUxrxDx
+
+#半雙
+@  X 
+@ *Bw 
+@X...X
+@ *BB 
+@  X
+BlackEdge=DIRV8_lxUxrxDx
+BlackStrongCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=FALSE
+BlackStrongCut=DIRV8_lxUxrxDx
+
+#半雙
+@  X 
+@ *B. 
+@X..wX
+@ bBB 
+@  X
+BlackEdge=DIRV8_lxUxrxDx
+BlackStrongCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=FALSE
+BlackStrongCut=DIRV8_lxUxrxDx
+
+#半雙
+@  X 
+@ bB. 
+@X..wX
+@ *BB 
+@  X
+BlackEdge=DIRV8_lxUxrxDx
+BlackStrongCutTwoSidePoint=DIRV8_LxuxRxdx
+BlackEdgeIsBorder=FALSE
+BlackStrongCut=DIRV8_lxUxrxDx
+
+#特別判斷連續雙的型
+@  X 
+@ BBB 
+@X...X
+@ BBB 
+@  X 
+BlackSequentialBamboo=true
+

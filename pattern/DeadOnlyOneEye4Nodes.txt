@@ -1,0 +1,196 @@
+@  X
+@ wBB
+@Xw.BX
+@ www
+@  X
+BlackDeadOnlyOneEye4NodesSet1=1
+
+@  X
+@ wBB
+@Xw.BX
+@    
+@   
+BlackDeadOnlyOneEye4NodesSet1=1
+
+@  X
+@  BB
+@  .BX
+@  ww
+@  X
+BlackDeadOnlyOneEye4NodesSet1=1
+
+@  X
+@  BB
+@  .BX
+@    
+@   
+BlackDeadOnlyOneEye4NodesSet1=1
+
+#改3x3沒問題，因為都知道是4nodes了，黑棋一定是從上面或右邊接出去
+@  w
+@  BW
+@  .BB
+@    
+@   
+BlackDeadOnlyOneEye4NodesSet1=1
+
+@  X
+@  BW
+@  .WX
+@  BB
+@  X
+BlackDeadOnlyOneEye4NodesSet1=1
+
+@  X
+@ wBw
+@XB.BX
+@ www
+@  X
+BlackDeadOnlyOneEye4NodesSet1=1
+
+@  X
+@ wBw
+@XB.BX
+@    
+@   
+BlackDeadOnlyOneEye4NodesSet1=1
+
+@  X
+@ Bww
+@XB.wX
+@ www
+@  X
+BlackDeadOnlyOneEye4NodesSetRotation=DIR4_L
+
+@  X
+@ Bww
+@XB.wX
+@    
+@   
+BlackDeadOnlyOneEye4NodesSetRotation=DIR4_L
+
+@  X
+@ Bw 
+@XB.  
+@ ww 
+@  X
+BlackDeadOnlyOneEye4NodesSetRotation=DIR4_L
+
+@  X
+@ Bw 
+@XB.  
+@    
+@   
+BlackDeadOnlyOneEye4NodesSetRotation=DIR4_L
+
+@  X
+@ BWW
+@XB..W
+@    
+@   
+BlackDeadOnlyOneEye4NodesSetRotation=DIR4_L
+
+@  X
+@ WWW 
+@XB.WX  
+@    
+@   
+BlackDeadOnlyOneEye4NodesSetRotation=DIR4_L
+
+@  X
+@ bWW
+@Xb.WX
+@ bbb
+@  X
+WhiteDeadOnlyOneEye4NodesSet1=1
+
+@  X
+@ bWW
+@Xb.WX
+@    
+@   
+WhiteDeadOnlyOneEye4NodesSet1=1
+
+@  X
+@  WW
+@  .WX
+@  bb
+@  X
+WhiteDeadOnlyOneEye4NodesSet1=1
+
+@  X
+@  WW
+@  .WX
+@    
+@   
+WhiteDeadOnlyOneEye4NodesSet1=1
+
+@  b
+@  WB
+@  .WW
+@    
+@   
+WhiteDeadOnlyOneEye4NodesSet1=1
+
+@  X
+@  WB
+@  .BX
+@  WW
+@  X
+WhiteDeadOnlyOneEye4NodesSet1=1
+
+@  X
+@ bWb
+@XW.WX
+@ bbb
+@  X
+WhiteDeadOnlyOneEye4NodesSet1=1
+
+@  X
+@ bWb
+@XW.WX
+@    
+@   
+WhiteDeadOnlyOneEye4NodesSet1=1
+
+@  X
+@ Wbb
+@XW.bX
+@ bbb
+@  X
+WhiteDeadOnlyOneEye4NodesSetRotation=DIR4_L
+
+@  X
+@ Wbb
+@XW.bX
+@    
+@   
+WhiteDeadOnlyOneEye4NodesSetRotation=DIR4_L
+
+@  X
+@ Wb 
+@XW.  
+@ bb 
+@  X
+WhiteDeadOnlyOneEye4NodesSetRotation=DIR4_L
+
+@  X
+@ Wb 
+@XW.  
+@    
+@   
+WhiteDeadOnlyOneEye4NodesSetRotation=DIR4_L
+
+@  X
+@ WBB
+@XW..B
+@    
+@   
+WhiteDeadOnlyOneEye4NodesSetRotation=DIR4_L
+
+@  X
+@ BBB 
+@WW.B*  
+@    
+@   
+WhiteDeadOnlyOneEye4NodesSetRotation=DIR4_L

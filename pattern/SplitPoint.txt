@@ -1,0 +1,130 @@
+define SPLIT_NONE   0
+define SPLIT_SURE   1
+define SPLIT_MID    2
+define SPLIT_4      3
+define SPLIT_3      4
+define SPLIT_2      5
+
+## # template
+## ID = BlackSplit
+## VALUE = SPLIT_(3)
+## @  X
+## @ ...
+## @X...X
+## @ ...
+## @  X
+
+# 2 liberty with all protected
+@  X
+@  .B
+@  ..X
+@    
+@   
+BlackSplit=SPLIT_2(3)
+
+@  X
+@ .Wb
+@X...X
+@    
+@   
+BlackSplit=SPLIT_2(3)
+
+@  X
+@ ..b
+@XW..X
+@    
+@   
+BlackSplit=SPLIT_2(3)
+
+
+# split point with 3 liberty
+@  X
+@ B.b
+@X...X
+@    
+@   
+BlackSplit=SPLIT_3(3)
+
+@  X
+@ B..
+@X..bX
+@    
+@   
+BlackSplit=SPLIT_3(3)
+
+@  X
+@ ...
+@Xb..X
+@    
+@   
+BlackSplit=SPLIT_3(3)
+
+# spilt with 4 liberty
+@  X
+@ *.*
+@X...X
+@ *.*
+@  X
+BlackSplit=SPLIT_4(3)
+
+
+## split middle
+# spilt in middle, one exception remove later
+@  X
+@ bBb
+@Xw.wX
+@ XXX
+@  X
+BlackSplit=SPLIT_MID(3)
+
+# special case, not spilt
+@  X
+@ BBB
+@XW.WX
+@ WWW
+@  X
+BlackSplit=SPLIT_NONE(3)
+
+
+# split sure
+@  X
+@ bBb
+@X...X
+@    
+@   
+BlackSplit=SPLIT_SURE(3)
+
+@  X
+@ B.b
+@X..BX
+@    
+@   
+BlackSplit=SPLIT_SURE(3)
+
+@  X
+@ bBb
+@X...X
+@ bBb
+@  X
+BlackSplit=SPLIT_SURE(3)
+
+@  X
+@ Bbb
+@X..bX
+@ B.B
+@  X
+BlackSplit=SPLIT_SURE(3)
+
+@  X
+@ bbb
+@X..BX
+@ B.b
+@  X
+BlackSplit=SPLIT_SURE(3)
+
+@  X
+@ B.b
+@X...X
+@ bBb
+@  X
+BlackSplit=SPLIT_SURE(3)

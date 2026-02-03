@@ -1,0 +1,141 @@
+# °µ²´
+
+@  X
+@ BBB
+@XB..X
+@ *BB
+@  X
+BlackMakeTrueEye=DIR4_R
+
+@  X
+@ BB*
+@XB..X
+@ BBB
+@  X
+BlackMakeTrueEye=DIR4_R
+
+@  X
+@ BB*
+@XB..X
+@ BBB
+@  X
+BlackMakeTrueEye=DIR4_R
+
+@  X
+@  BB
+@  ..X
+@  BB
+@  X
+BlackMakeTrueEye=DIR4_R
+
+@  X
+@  .B
+@  .BX
+@  BB
+@  X
+BlackMakeTrueEye=DIR4_U
+
+@  X
+@  BB
+@  ..X
+@    
+@   
+BlackMakeTrueEye=DIR4_R
+
+@  X
+@ bBb
+@XB..X
+@ bBb
+@  X
+BlackMakePotentialTrueEye=DIR4_R
+
+@  X
+@ wBb
+@XB..X
+@ bBb
+@  X
+BlackMakePotentialTrueEye=DIR4_R
+
+@  X
+@ bBw
+@XB..X
+@ bBb
+@  X
+BlackMakePotentialTrueEye=DIR4_R
+
+@  X
+@  Bb
+@  ..X
+@  Bb
+@  X
+BlackMakePotentialTrueEye=DIR4_R
+
+@  X
+@  .b
+@  .BX
+@  Bb
+@  X
+BlackMakePotentialTrueEye=DIR4_U
+
+@  X
+@  Bb
+@  ..X
+@    
+@   
+BlackMakePotentialTrueEye=DIR4_R
+
+@  X
+@ WBb
+@XB..X
+@ WBb
+@  X
+BlackMakeFalseEye=DIR4_R
+
+@  X
+@ WBb
+@XB..X
+@ bBW
+@  X
+BlackMakeFalseEye=DIR4_R
+
+@  X
+@ WBW
+@XB..X
+@ bBb
+@  X
+BlackMakeFalseEye=DIR4_R
+
+@  X
+@ bBW
+@XB..X
+@ bBW
+@  X
+BlackMakeFalseEye=DIR4_R
+
+@  X
+@  BW
+@  ..X
+@  B*
+@  X
+BlackMakeFalseEye=DIR4_R
+
+@  X
+@  .W
+@  .BX
+@  Bb
+@  X
+BlackMakeFalseEye=DIR4_U
+
+@  X
+@  .b
+@  .BX
+@  BW
+@  X
+BlackMakeFalseEye=DIR4_U
+
+@  X
+@  BW
+@  ..X
+@    
+@   
+BlackMakeFalseEye=DIR4_R

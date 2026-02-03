@@ -1,0 +1,12 @@
+#Elephant
+
+@  X
+@ w.B
+@X...X
+@ B.w
+@  X
+BlackElephant=DIRV8_lxuXrxdX
+BlackElephantThreat1=DIR4_U
+BlackElephantThreat2=DIR4_D
+BlackElephantThreat3=DIR4_L
+BlackElephantThreat4=DIR4_R

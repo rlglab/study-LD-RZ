@@ -1,0 +1,41 @@
+@  X
+@ *B*
+@XB.BX
+@ *B*
+@  X
+BlackEye=1
+
+@  X
+@  B*
+@  .BX
+@  B*
+@  X
+BlackEye=1
+
+@  X
+@  B*
+@  .BX
+@     
+@   
+BlackEye=1
+
+@  X
+@ *W*
+@XW.WX
+@ *W*
+@  X
+WhiteEye=1
+
+@  X
+@  W*
+@  .WX
+@  W*
+@  X
+WhiteEye=1
+
+@  X
+@  W*
+@  .WX
+@    
+@   
+WhiteEye=1

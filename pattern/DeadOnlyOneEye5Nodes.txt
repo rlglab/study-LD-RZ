@@ -1,0 +1,209 @@
+@  X
+@ BBw
+@XB.BX
+@ www
+@  X
+BlackDeadOnlyOneEye5NodesSet1=1
+
+@  X
+@ BBw
+@XB.BX
+@     
+@     
+BlackDeadOnlyOneEye5NodesSet1=1
+
+@  X
+@ BBB
+@XB.wX
+@ www
+@  X
+BlackDeadOnlyOneEye5NodesSet1=1
+
+@  X
+@ BBB
+@XB.wX
+@     
+@     
+BlackDeadOnlyOneEye5NodesSet1=1
+
+@  X
+@ wBw
+@XB.BX
+@ wBw
+@  X
+BlackDeadOnlyOneEye5NodesSet1=1
+
+@  X
+@ BBw
+@XB.wX
+@ www
+@  X
+BlackDeadOnlyOneEye5NodesSetRotation=DIR4_L
+
+@  X
+@ BBw
+@XB.wX
+@     
+@     
+BlackDeadOnlyOneEye5NodesSetRotation=DIR4_L
+
+@  X
+@ BB 
+@XB.  
+@ ww 
+@  X
+BlackDeadOnlyOneEye5NodesSetRotation=DIR4_L
+
+@  X
+@ BB 
+@XB.  
+@     
+@     
+BlackDeadOnlyOneEye5NodesSetRotation=DIR4_L
+
+@  X
+@ Bww
+@XB.wX
+@ www
+@  X
+BlackDeadOnlyOneEye5NodesSetRotation=DIR4_L
+
+@  X
+@ Bww
+@XB.wX
+@     
+@     
+BlackDeadOnlyOneEye5NodesSetRotation=DIR4_L
+
+@  X
+@ Bw 
+@XB.  
+@ ww 
+@  X
+BlackDeadOnlyOneEye5NodesSetRotation=DIR4_L
+
+@  X
+@ Bw 
+@XB.  
+@     
+@     
+BlackDeadOnlyOneEye5NodesSetRotation=DIR4_L
+
+@  X
+@ Bww
+@XB.wX
+@ Bww
+@  X
+BlackDeadOnlyOneEye5NodesSetRotation=DIR4_L
+
+@  X
+@ Bw 
+@XB.  
+@ Bw 
+@  X
+BlackDeadOnlyOneEye5NodesSetRotation=DIR4_L
+
+@  X
+@ WWb
+@XW.WX
+@ bbb
+@  X
+WhiteDeadOnlyOneEye5NodesSet1=1
+
+@  X
+@ WWb
+@XW.WX
+@     
+@     
+WhiteDeadOnlyOneEye5NodesSet1=1
+
+@  X
+@ WWW
+@XW.bX
+@ bbb
+@  X
+WhiteDeadOnlyOneEye5NodesSet1=1
+
+@  X
+@ WWW
+@XW.bX
+@     
+@     
+WhiteDeadOnlyOneEye5NodesSet1=1
+
+@  X
+@ bWb
+@XW.WX
+@ bWb
+@  X
+WhiteDeadOnlyOneEye5NodesSet1=1
+
+@  X
+@ WWb
+@XW.bX
+@ bbb
+@  X
+WhiteDeadOnlyOneEye5NodesSetRotation=DIR4_L
+
+@  X
+@ WWb
+@XW.bX
+@     
+@     
+WhiteDeadOnlyOneEye5NodesSetRotation=DIR4_L
+
+@  X
+@ WW 
+@XW.   
+@ bb 
+@  X
+WhiteDeadOnlyOneEye5NodesSetRotation=DIR4_L
+
+@  X
+@ WW 
+@XW.  
+@     
+@     
+WhiteDeadOnlyOneEye5NodesSetRotation=DIR4_L
+
+@  X
+@ Wbb
+@XW.bX
+@ bbb
+@  X
+WhiteDeadOnlyOneEye5NodesSetRotation=DIR4_L
+
+@  X
+@ Wbb
+@XW.bX
+@     
+@     
+WhiteDeadOnlyOneEye5NodesSetRotation=DIR4_L
+
+@  X
+@ Wb 
+@XW.  
+@ bb 
+@  X
+WhiteDeadOnlyOneEye5NodesSetRotation=DIR4_L
+
+@  X
+@ Wb 
+@XW.  
+@     
+@     
+WhiteDeadOnlyOneEye5NodesSetRotation=DIR4_L
+
+@  X
+@ Wbb
+@XW.bX
+@ Wbb
+@  X
+WhiteDeadOnlyOneEye5NodesSetRotation=DIR4_L
+
+@  X
+@ Wb 
+@XW.  
+@ Wb 
+@  X
+WhiteDeadOnlyOneEye5NodesSetRotation=DIR4_L

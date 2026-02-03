@@ -1,0 +1,41 @@
+@  X
+@ WB*
+@XB.*X
+@ WB*
+@  X
+BlackApproachLib=DIRV8_Lxuxrxdx
+
+@  X
+@ WBW
+@XB.BX
+@ WB*
+@  X
+BlackApproachLib=DIRV8_LxUxrxdx
+
+@  X
+@ WBW
+@XB.BX
+@ WBW
+@  X
+BlackApproachLib=DIRV8_LxUxRxDx
+
+@  X
+@  BW
+@  .BX
+@  **
+@  X
+BlackApproachLib=DIRV8_lxUxrxdx
+
+@  X
+@  BW
+@  .BX
+@  BW
+@  X
+BlackApproachLib=DIRV8_lxUxRxDx
+
+@  X
+@  BW
+@  .BX
+@     
+@   
+BlackApproachLib=DIRV8_lxUxRxdx

@@ -1,0 +1,8 @@
+#connector jump, always weak(but may be strong cut)
+
+@  X
+@ wBw
+@Xw.wX
+@ wBw
+@  X
+BlackJump=DIRV4_lUrD

@@ -1,0 +1,316 @@
+# If can construct the tigermouth, then set bit off the diagonal position.
+# If can not contruct the tigermouth for 3-block connection, then set bit of the diagonal position.
+
+@  X 
+@ .WW 
+@XW.WX
+@ *b* 
+@  X
+WhiteEyeConnectorTigerMouth=DIRV8_lxUxrxdx
+WhiteEyeConnectorDiagonal=DIRV8_lXuxrxdx
+
+@  X 
+@ BWW 
+@XW.WX
+@ *b* 
+@  X
+WhiteEyeConnectorTigerMouth=DIRV8_lxUxrxdx
+
+@  X 
+@ .W. 
+@XW.WX
+@ *b* 
+@  X
+WhiteEyeConnectorTigerMouth=DIRV8_lxUxrxdx
+WhiteEyeConnectorDiagonal=DIRV8_lXuXrxdx
+
+@  X 
+@ BW. 
+@XW.WX
+@ *b* 
+@  X
+WhiteEyeConnectorTigerMouth=DIRV8_lxUxrxdx
+WhiteEyeConnectorDiagonal=DIRV8_lxuXrxdx
+
+@  X 
+@ BWB 
+@XW.WX
+@ *b* 
+@  X
+WhiteEyeConnectorTigerMouth=DIRV8_lxUxrxdx
+
+@  X 
+@ *W. 
+@Xb.WX
+@ *b* 
+@  X
+WhiteEyeConnectorDiagonal=DIRV8_lxuXrxdx
+
+@  X
+@ .W*
+@XW.bX
+@     
+@     
+WhiteEyeConnectorTigerMouth=DIRV8_Lxuxrxdx
+WhiteEyeConnectorDiagonal=DIRV8_lXuxrxdx
+
+@  X
+@ BW*
+@XW.bX
+@     
+@     
+WhiteEyeConnectorTigerMouth=DIRV8_Lxuxrxdx
+
+@  X
+@ *b*
+@XW.WX
+@     
+@     
+WhiteEyeConnectorTigerMouth=DIRV8_lxuxrxDx
+
+@  X
+@ .W.
+@XW.WX
+@     
+@     
+WhiteEyeConnectorFalseEye=true
+WhiteEyeConnectorDiagonal=DIRV8_lXuXrxdx
+
+@  X
+@ WW.
+@XW.WX
+@     
+@     
+WhiteEyeConnectorFalseEye=true
+WhiteEyeConnectorDiagonal=DIRV8_lxuXrxdx
+
+@  X
+@ WWB
+@XW.WX
+@     
+@     
+WhiteEyeConnectorFalseEye=true
+
+@  X
+@ BW.
+@XW.WX
+@     
+@     
+WhiteEyeConnectorFalseEye=true
+WhiteEyeConnectorDiagonal=DIRV8_lxuXrxdx
+
+@  X
+@ BWB
+@XW.WX
+@     
+@     
+WhiteEyeConnectorFalseEye=true
+
+@  X 
+@ .W. 
+@XW.WX
+@ .W. 
+@  X
+WhiteEyeConnectorFalseEye=true
+WhiteEyeConnectorDiagonal=DIRV8_lXuXrXdX
+
+@  X 
+@ .WW 
+@XW.WX
+@ .W. 
+@  X
+WhiteEyeConnectorFalseEye=true
+WhiteEyeConnectorDiagonal=DIRV8_lXuxrXdX
+
+@  X 
+@ .WB 
+@XW.WX
+@ .W. 
+@  X
+WhiteEyeConnectorFalseEye=true
+WhiteEyeConnectorDiagonal=DIRV8_lXuxrXdX
+
+@  X 
+@ .WW 
+@XW.WX
+@ .WW 
+@  X
+WhiteEyeConnectorFalseEye=true
+WhiteEyeConnectorDiagonal=DIRV8_lXuxrxdX
+
+@  X 
+@ .WB 
+@XW.WX
+@ .WW 
+@  X
+WhiteEyeConnectorFalseEye=true
+WhiteEyeConnectorDiagonal=DIRV8_lXuxrxdX
+
+@  X 
+@ .WB 
+@XW.WX
+@ .WB 
+@  X
+WhiteEyeConnectorFalseEye=true
+WhiteEyeConnectorDiagonal=DIRV8_lXuxrxdX
+
+@  X 
+@ .WB 
+@XW.WX
+@ WWB 
+@  X
+WhiteEyeConnectorFalseEye=true
+WhiteEyeConnectorDiagonal=DIRV8_lXuxrxdX
+
+@  X 
+@ .WW 
+@XW.WX
+@ WW. 
+@  X
+WhiteEyeConnectorFalseEye=true
+WhiteEyeConnectorDiagonal=DIRV8_lXuxrXdx
+
+@  X 
+@ .WW 
+@XW.WX
+@ BW. 
+@  X
+WhiteEyeConnectorFalseEye=true
+WhiteEyeConnectorDiagonal=DIRV8_lXuxrXdx
+
+@  X 
+@ .WB 
+@XW.WX
+@ BW. 
+@  X
+WhiteEyeConnectorFalseEye=true
+WhiteEyeConnectorDiagonal=DIRV8_lXuxrXdx
+
+@  X 
+@ .WB 
+@XW.WX
+@ BWW 
+@  X
+WhiteEyeConnectorFalseEye=true
+WhiteEyeConnectorDiagonal=DIRV8_lXuxrXdx
+
+@  X 
+@ WWB 
+@XW.WX
+@ BWW 
+@  X
+WhiteEyeConnectorFalseEye=true
+WhiteEyeConnectorDiagonal=DIRV8_lXuxrXdx
+
+@  X 
+@ BWB 
+@XW.WX
+@ BWB 
+@  X
+WhiteEyeConnectorFalseEye=true
+
+@  X
+@  Ww
+@  .WX
+@    
+@   
+WhiteEyeConnectorFalseEye=true
+WhiteEyeConnectorDiagonal=DIRV8_lxuXrxdx
+
+@  X 
+@ bWw 
+@XW..X
+@ WBW 
+@  X
+WhiteEyeConnectorTigerMouth=DIRV8_lxUxrxdx
+
+@  X 
+@ bWw 
+@XW..X
+@ BBW 
+@  X
+WhiteEyeConnectorTigerMouth=DIRV8_lxUxrxdx
+
+@  X 
+@ *W* 
+@XWBWX
+@ *b* 
+@  X
+WhiteEyeConnectorTigerMounthOneLibDeadBlock=DIRV8_lxUxrxdx
+
+@  X 
+@ *W* 
+@XbBWX
+@     
+@     
+WhiteEyeConnectorTigerMounthOneLibDeadBlock=DIRV8_lxuxRxdx
+
+@  X
+@ *W
+@X*B
+@     
+@   
+WhiteEyeConnectorTigerMounthOneLibDeadBlock=DIRV8_lxuxRxdx
+
+@  X 
+@ WW* 
+@X..bX
+@ WWb 
+@  X
+WhiteEdgeBamboo=True
+WhiteEdgeBambooDirAnother=DIR4_L
+
+@  X 
+@ .W* 
+@Xb.bX
+@ WW* 
+@  X
+WhiteEdgeHalfBamboo=True
+WhiteEdgeHalfBambooDirAnother=DIR4_L
+
+@  X 
+@ WWb 
+@X..bX
+@     
+@     
+WhiteEdgeWallBamboo=True
+WhiteEdgeWallBambooDirAnother=DIR4_L
+
+@  X 
+@ bWb 
+@Xb.bX
+@     
+@     
+WhiteEdgeWallJump=True
+WhiteEdgeWallJumpDirAnother=DIR4_R
+
+@  X 
+@ bWW 
+@Xb.bX
+@     
+@     
+WhiteEdgeWallJump=True
+WhiteEdgeWallJumpDirAnother=DIR4_R
+
+@  X 
+@ bWb 
+@X...X
+@ bWb 
+@  X 
+WhiteEdgeJump=True
+WhiteEdgeJumpDirAnother=DIR4_R
+
+@  X 
+@ *** 
+@XW.WX
+@     
+@  
+WhiteEdgeJump=True
+WhiteEdgeJumpDirAnother=DIR4_U
+
+@  X 
+@ *Wb 
+@Xw.WX
+@ *b* 
+@  X 
+WhiteEdgeBan=True

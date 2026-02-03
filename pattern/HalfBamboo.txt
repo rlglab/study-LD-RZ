@@ -1,0 +1,99 @@
+@  X 
+@ *Bw 
+@Xw.wX
+@ *BB 
+@  X
+BlackHalfBamboo=DIRV8_lxUxrXdx
+BlackHalfBambooThreatPatternDirection=DIR4_L
+
+@  X 
+@ *B. 
+@X.w.X
+@ *BB 
+@  X
+BlackHalfBamboo=DIRV8_lxUxrXdx
+BlackHalfBambooThreatPatternDirection=DIR4_L
+
+#@  X 
+#@ *Bw 
+#@X111X
+#@ *BB 
+#@  X
+#:1=h1
+#BlackHalfBamboo=DIRV8_lxUxrXdx
+#BlackHalfBambooThreatPatternDirection=DIR4_L
+
+#one empty
+@  X 
+@ *Bw 
+@X.WWX
+@ *BB 
+@  X
+BlackHalfBamboo=DIRV8_lxUxrXdx
+BlackHalfBambooThreatPatternDirection=DIR4_L
+
+@  X 
+@ *Bw 
+@XW.WX
+@ *BB 
+@  X
+BlackHalfBamboo=DIRV8_lxUxrXdx
+BlackHalfBambooThreatPatternDirection=DIR4_L
+
+@  X 
+@ *Bw 
+@XWW.X
+@ *BB 
+@  X
+BlackHalfBamboo=DIRV8_lxUxrXdx
+BlackHalfBambooThreatPatternDirection=DIR4_L
+
+#two empty
+@  X 
+@ *Bw 
+@XW..X
+@ *BB 
+@  X
+BlackHalfBamboo=DIRV8_lxUxrXdx
+BlackHalfBambooThreatPatternDirection=DIR4_L
+
+@  X 
+@ *Bw 
+@X.W.X
+@ *BB 
+@  X
+BlackHalfBamboo=DIRV8_lxUxrXdx
+BlackHalfBambooThreatPatternDirection=DIR4_L
+
+@  X 
+@ *Bw 
+@X..WX
+@ *BB 
+@  X
+BlackHalfBamboo=DIRV8_lxUxrXdx
+BlackHalfBambooThreatPatternDirection=DIR4_L
+
+#three empty
+@  X 
+@ *Bw 
+@X...X
+@ *BB 
+@  X
+BlackHalfBamboo=DIRV8_lxUxrXdx
+BlackHalfBambooThreatPatternDirection=DIR4_L
+
+
+#以下兩個"HalfBambooThreats" pattern 由上面的pattern經由"BlackHalfBambooThreatPatternDirection"移動而來
+@  X 
+@ **B 
+@X*wwX
+@ **B 
+@  X
+BlackHalfBambooThreats=DIRV8_LxUxRxDx
+
+@  X 
+@  *B 
+@  wwX
+@  *B 
+@  X
+BlackHalfBambooThreats=DIRV8_lxUxRxDx

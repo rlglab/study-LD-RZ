@@ -1,0 +1,84 @@
+@  X
+@ *Bw
+@XB.BX
+@ *Bw
+@  X
+BlackTwoDiagonalClosedArea=DIRV8_lxuXrXdx
+
+@  X
+@ *Wb
+@XW.WX
+@ *Wb
+@  X
+WhiteTwoDiagonalClosedArea=DIRV8_lxuXrXdx
+
+@  X
+@ *Bw
+@XB.BX
+@ wB*
+@  X
+BlackTwoDiagonalClosedArea=DIRV8_lxuXrxdX
+
+@  X
+@ *Wb
+@XW.WX
+@ bW*
+@  X
+WhiteTwoDiagonalClosedArea=DIRV8_lxuXrxdX
+
+@  X
+@ *Bw
+@Xw.BX
+@ *Bw
+@  X
+BlackTwoDiagonalClosedArea=DIRV8_LxuXrXdx
+
+@  X
+@ *Wb
+@Xb.WX
+@ *Wb
+@  X
+WhiteTwoDiagonalClosedArea=DIRV8_LxuXrXdx
+
+
+@  X
+@ *Bw
+@XB.BX
+@    
+@   
+BlackTwoDiagonalClosedArea=DIRV8_lxuXrxdx
+
+@  X
+@ *Wb
+@XW.WX
+@    
+@   
+WhiteTwoDiagonalClosedArea=DIRV8_lxuXrxdx
+
+@  X
+@ *Bw
+@Xw.BX
+@    
+@   
+BlackTwoDiagonalClosedArea=DIRV8_LxuXrxdx
+
+@  X
+@ *Wb
+@Xb.WX
+@    
+@   
+WhiteTwoDiagonalClosedArea=DIRV8_LxuXrxdx
+
+@  X
+@  Bw
+@  .BX
+@    
+@   
+BlackTwoDiagonalClosedArea=DIRV8_lxuXrxdx
+
+@  X
+@  Wb
+@  .WX
+@    
+@   
+WhiteTwoDiagonalClosedArea=DIRV8_lxuXrxdx

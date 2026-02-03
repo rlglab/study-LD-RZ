@@ -1,0 +1,41 @@
+@  X
+@ BWb
+@XW.WX
+@ *b*
+@  X
+BlackConnectCutPoint=1
+
+@  X
+@ WBw
+@XB.BX
+@ *w*
+@  X
+WhiteConnectCutPoint=1
+
+@  X
+@ *.*
+@XW.WX
+@     
+@     
+BlackConnectCutPoint=1
+
+@  X
+@ *.*
+@XB.BX
+@     
+@     
+WhiteConnectCutPoint=1
+
+@  X
+@ BW*
+@XW..X
+@     
+@     
+BlackConnectCutPoint=1
+
+@  X
+@ WB*
+@XB..X
+@     
+@     
+WhiteConnectCutPoint=1

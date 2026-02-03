@@ -1,0 +1,211 @@
+# direction vector indicate empty or opponent grids
+
+@  X
+@ BBB
+@XB.BX
+@ BBB
+@  X
+BlackPerfectClosedArea=DIRV4_lurd
+
+@  X
+@ WWW
+@XW.WX
+@ WWW
+@  X
+WhitePerfectClosedArea=DIRV4_lurd
+
+@  X
+@ *BB
+@Xw.BX
+@ *BB
+@  X
+BlackPerfectClosedArea=DIRV4_Lurd
+
+@  X
+@ *WW
+@Xb.WX
+@ *WW
+@  X
+WhitePerfectClosedArea=DIRV4_Lurd
+
+@  X
+@ *BB
+@Xw.BX
+@ *w*
+@  X
+BlackPerfectClosedArea=DIRV4_LurD
+
+@  X
+@ *WW
+@Xb.WX
+@ *b*
+@  X
+WhitePerfectClosedArea=DIRV4_LurD
+
+@  X
+@ *w*
+@Xw.wX
+@ *B*
+@  X
+BlackPerfectClosedArea=DIRV4_LURd
+
+@  X
+@ *w*
+@Xw.wX
+@ *w*
+@  X
+BlackPerfectClosedArea=DIRV4_LURD
+
+@  X
+@ *B*
+@Xw.wX
+@ *B*
+@  X
+BlackPerfectClosedArea=DIRV4_LuRd
+
+@  X
+@ *b*
+@Xb.bX
+@ *W*
+@  X
+WhitePerfectClosedArea=DIRV4_LURd
+
+@  X
+@ *W*
+@Xb.bX
+@ *W*
+@  X
+WhitePerfectClosedArea=DIRV4_LuRd
+
+@  X
+@ *b*
+@Xb.bX
+@ *b*
+@  X
+WhitePerfectClosedArea=DIRV4_LURD
+
+@  X
+@ BBB
+@XB.BX
+@    
+@   
+BlackPerfectClosedArea=DIRV4_lurd
+
+@  X
+@ WWW
+@XW.WX
+@    
+@   
+WhitePerfectClosedArea=DIRV4_lurd
+
+@  X
+@ *BB
+@Xw.BX
+@    
+@   
+BlackPerfectClosedArea=DIRV4_Lurd
+
+@  X
+@ *WW
+@Xb.WX
+@    
+@   
+WhitePerfectClosedArea=DIRV4_Lurd
+
+@  X
+@ *w*
+@XB.BX
+@    
+@   
+BlackPerfectClosedArea=DIRV4_lUrd
+
+@  X
+@ *b*
+@XW.WX
+@    
+@   
+WhitePerfectClosedArea=DIRV4_lUrd
+
+@  X
+@ *w*
+@Xw.BX
+@    
+@   
+BlackPerfectClosedArea=DIRV4_LUrd
+
+@  X
+@ *b*
+@Xb.WX
+@    
+@   
+WhitePerfectClosedArea=DIRV4_LUrd
+
+@  X
+@ *B*
+@Xw.wX
+@    
+@   
+BlackPerfectClosedArea=DIRV4_LuRd
+
+@  X
+@ *W*
+@Xb.bX
+@    
+@   
+WhitePerfectClosedArea=DIRV4_LuRd
+
+@  X
+@ *w*
+@Xw.wX
+@    
+@   
+BlackPerfectClosedArea=DIRV4_LURd
+
+@  X
+@ *b*
+@Xb.bX
+@    
+@   
+WhitePerfectClosedArea=DIRV4_LURd
+
+@  X
+@ BB 
+@XB.  
+@    
+@   
+BlackPerfectClosedArea=DIRV4_lurd
+
+@  X
+@ WW 
+@XW.  
+@    
+@   
+WhitePerfectClosedArea=DIRV4_lurd
+
+@  X
+@ *w 
+@Xw.  
+@    
+@   
+BlackPerfectClosedArea=DIRV4_LUrd
+
+@  X
+@ *b 
+@Xb.  
+@    
+@   
+WhitePerfectClosedArea=DIRV4_LUrd
+
+@  X
+@ *w 
+@XB.  
+@    
+@   
+BlackPerfectClosedArea=DIRV4_lUrd
+
+@  X
+@ *b 
+@XW.  
+@    
+@   
+WhitePerfectClosedArea=DIRV4_lUrd

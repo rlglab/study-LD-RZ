@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{65d3d75a-f771-4354-be12-ac711cab367b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Basic">
+      <UniqueIdentifier>{81d1e40c-3e94-446d-b4b8-37bc6d689032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MonteCarlo">
+      <UniqueIdentifier>{bd9f119a-63d4-4366-a5f1-3b2c3f751185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MonteCarlo\UCT">
+      <UniqueIdentifier>{e9dbea2d-8047-4ceb-a753-979ec2578cd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MonteCarlo\Control">
+      <UniqueIdentifier>{f5db55e9-2902-46fc-8842-76fbca3ff711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MonteCarlo\NodeManager">
+      <UniqueIdentifier>{aec2c73b-d899-4c68-b351-df9403eeaf70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MonteCarlo\Basic">
+      <UniqueIdentifier>{74f86c3f-6b06-454c-beb1-6179a50f18bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Option">
+      <UniqueIdentifier>{f62c392e-0af9-44bc-890e-942b25e9c710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MonteCarlo\PlayoutAgent">
+      <UniqueIdentifier>{3e5afe79-551d-424a-ba89-b7001c126f94}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BitBoard.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SpinLock.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeSystem.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseGtpEngine.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="MonteCarlo.h">
+      <Filter>MonteCarlo</Filter>
+    </ClInclude>
+    <ClInclude Include="UCTNodeImpl.h">
+      <Filter>MonteCarlo\UCT</Filter>
+    </ClInclude>
+    <ClInclude Include="Configure.h">
+      <Filter>MonteCarlo\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="NodePage.h">
+      <Filter>MonteCarlo\NodeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="NodePtr.h">
+      <Filter>MonteCarlo\NodeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="StatisticData.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="UctChildIterator.h">
+      <Filter>MonteCarlo\UCT</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadSharedData.h">
+      <Filter>MonteCarlo\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeRecycler.h">
+      <Filter>MonteCarlo\NodeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="HashKey64.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseUctAccessor.h">
+      <Filter>MonteCarlo\UCT</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseUctNode.h">
+      <Filter>MonteCarlo\UCT</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseThreadState.h">
+      <Filter>MonteCarlo\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseDecisionMaker.h">
+      <Filter>MonteCarlo\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseRootShifter.h">
+      <Filter>MonteCarlo\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="MasterThread.h">
+      <Filter>MonteCarlo\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="SlaveThread.h">
+      <Filter>MonteCarlo\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigureLoader.h">
+      <Filter>Utils\Option</Filter>
+    </ClInclude>
+    <ClInclude Include="Invoker.h">
+      <Filter>Utils\Option</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgramOption.h">
+      <Filter>Utils\Option</Filter>
+    </ClInclude>
+    <ClInclude Include="strops.h">
+      <Filter>Utils\Option</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseStopCondition.h">
+      <Filter>MonteCarlo\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="BasePlayoutAgent.h">
+      <Filter>MonteCarlo\PlayoutAgent</Filter>
+    </ClInclude>
+    <ClInclude Include="PageAllocator.h">
+      <Filter>MonteCarlo\NodeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeAllocator.h">
+      <Filter>MonteCarlo\NodeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BasePrunePolicy.h">
+      <Filter>MonteCarlo\NodeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ClusterLogger.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="TeeStream.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TimeSystem.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseGtpEngine.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Configure.cpp">
+      <Filter>MonteCarlo\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigureLoader.cpp">
+      <Filter>Utils\Option</Filter>
+    </ClCompile>
+    <ClCompile Include="Invoker.cpp">
+      <Filter>Utils\Option</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgramOption.cpp">
+      <Filter>Utils\Option</Filter>
+    </ClCompile>
+    <ClCompile Include="strops.cpp">
+      <Filter>Utils\Option</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

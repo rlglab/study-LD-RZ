@@ -1,0 +1,79 @@
+@  X
+@ W.*
+@XB..X
+@ *W*
+@  X
+BlackAtariLadder=DIRV8_lxuXRxdx
+BlackAtariLadderCheckPoint=DIRV8_lXuxrxDx
+
+@  X
+@ w.*
+@XB..X
+@ +W*
+@  X
+BlackAtariLadder=DIRV8_lxuXRxdx
+BlackAtariLadderCheckPoint=DIRV8_lXuxrxDx
+
+@  X
+@ Ww*
+@XB.wX
+@ B.*
+@  X
+BlackAtariLadder=DIRV8_lxuXRxdx
+BlackAtariLadderCheckPoint=DIRV8_lXuxrxdx
+
+@  X
+@ w.*
+@XB.WX
+@ W.*
+@  X
+BlackAtariLadder=DIRV8_lxuXRXdx
+BlackAtariLadderCheckPoint=DIRV8_lXuxRxdX
+
+@  X
+@ w.*
+@XB..X
+@    
+@   
+BlackAtariLadder=DIRV8_lxuxRxdx
+BlackAtariLadderCheckPoint=DIRV8_lxuxrxdx
+
+@  X
+@ B.*
+@XW..X
+@ *B*
+@  X
+WhiteAtariLadder=DIRV8_lxuXRxdx
+WhiteAtariLadderCheckPoint=DIRV8_lXuxrxDx
+
+@  X
+@ b.*
+@XW..X
+@ +B*
+@  X
+WhiteAtariLadder=DIRV8_lxuXRxdx
+WhiteAtariLadderCheckPoint=DIRV8_lXuxrxDx
+
+@  X
+@ Bb*
+@XW.bX
+@ W.*
+@  X
+WhiteAtariLadder=DIRV8_lxuXRxdx
+WhiteAtariLadderCheckPoint=DIRV8_lXuxrxdx
+
+@  X
+@ b.*
+@XW.BX
+@ B.*
+@  X
+WhiteAtariLadder=DIRV8_lxuXRXdx
+WhiteAtariLadderCheckPoint=DIRV8_lXuxRxdX
+
+@  X
+@ b.*
+@XW..X
+@    
+@   
+WhiteAtariLadder=DIRV8_lxuxRxdx
+WhiteAtariLadderCheckPoint=DIRV8_lxuxrxdx

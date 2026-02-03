@@ -1,0 +1,972 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Basic">
+      <UniqueIdentifier>{65afc8f6-396a-4c92-b847-22417c133282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="feature">
+      <UniqueIdentifier>{d66ba2a1-9c77-4879-bea1-bf5294bd8ae7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{02b39734-df75-46fe-aba2-2c4a8a109334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MonteCarlo">
+      <UniqueIdentifier>{89aee394-b3a9-4742-b33e-2e345b5f19e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pattern">
+      <UniqueIdentifier>{10760783-153e-4ab5-82a2-295f1f5457d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Board">
+      <UniqueIdentifier>{359ce4be-708e-4e85-a830-21a96247a9b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="feature\Handler">
+      <UniqueIdentifier>{f7a22e23-e39c-408d-b1f0-2d7742a1b307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Board\Utils">
+      <UniqueIdentifier>{4f2e2cf7-2ad8-4b97-bc89-2b32126e586c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Knowledge">
+      <UniqueIdentifier>{915eb697-cafb-4280-ae60-cb503f4a09d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DbOpening">
+      <UniqueIdentifier>{24119540-3b33-4281-9040-3919632770fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pattern\Pattern33">
+      <UniqueIdentifier>{47086c4d-c0db-45c4-956b-491ab6d2b8c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pattern\RadiusPattern">
+      <UniqueIdentifier>{cf38a9a6-5af2-49d5-b7d8-73147ddc9c1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pattern\RadiusPattern\Utils">
+      <UniqueIdentifier>{83718988-32df-4fb5-8d84-8840c0200119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Knowledge\LocalSearch">
+      <UniqueIdentifier>{0575c115-05c0-485e-bb78-280ce762030d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{e7fd46c6-d3c0-43b9-a465-2e691e1c4645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\GtpEngine">
+      <UniqueIdentifier>{80911b2d-312f-4968-a603-b347c1438dcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\GtpEngine\Utils">
+      <UniqueIdentifier>{ef93dc8c-85e3-4ddd-9af5-adbd5cf0e548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clustering">
+      <UniqueIdentifier>{0ca5831b-6116-4737-b36d-24e16f9f45f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="feature\CNN">
+      <UniqueIdentifier>{cfc420bf-2797-4f5e-b5ce-7092fa3c20ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clustering\Parallel MCTS">
+      <UniqueIdentifier>{3018b73c-3e5f-4b86-a0d7-669cfe3c8199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clustering\Parallel CNN">
+      <UniqueIdentifier>{65cc9392-276a-426c-bdb2-f765892f8efe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logger">
+      <UniqueIdentifier>{5783b811-b358-4362-9336-4f4eae5a58f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Training">
+      <UniqueIdentifier>{747c1f5f-8ede-4fbd-b691-2bd80f155c57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Training\Utils">
+      <UniqueIdentifier>{3f58ba19-6eb3-4375-87d3-2a95cd6b850e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Training\RLDCNN">
+      <UniqueIdentifier>{1ff92009-2b3c-4e6c-8e97-240f87b5bf96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Training\TCaffe">
+      <UniqueIdentifier>{9b2f10ce-1d49-46f6-a026-c5de201e42d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Training\Train">
+      <UniqueIdentifier>{068439cd-293b-4d25-8cef-b3644d75cec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Training\Zero">
+      <UniqueIdentifier>{6e5e0d88-a100-47d0-b147-202959832c8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tsumego">
+      <UniqueIdentifier>{4cc05572-6ee0-4b56-be9f-d6669f1cd570}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HappyGoMain.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticBoard.cpp">
+      <Filter>Board</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticGrid.cpp">
+      <Filter>Board</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiBoard.cpp">
+      <Filter>Board</Filter>
+    </ClCompile>
+    <ClCompile Include="rand64.cpp">
+      <Filter>Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiBlock.cpp">
+      <Filter>feature</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiUctAccessor.cpp">
+      <Filter>MonteCarlo</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiConfigure.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiThreadState.cpp">
+      <Filter>MonteCarlo</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiBoard.invariance.cpp">
+      <Filter>Board</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiPlayoutAgent.cpp">
+      <Filter>MonteCarlo</Filter>
+    </ClCompile>
+    <ClCompile Include="Territory.cpp">
+      <Filter>Board</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiClosedArea.cpp">
+      <Filter>feature</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiEdge.cpp">
+      <Filter>feature</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiMoveDecisionMaker.cpp">
+      <Filter>MonteCarlo</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiCAHandler.cpp">
+      <Filter>feature\Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiGrid.cpp">
+      <Filter>Board</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiMoveFeatureHandler.cpp">
+      <Filter>feature\Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiGtpEngine.cpp">
+      <Filter>Main\GtpEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiGammaTable.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiRootFilter.cpp">
+      <Filter>MonteCarlo</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiKnowledgeBase.cpp">
+      <Filter>Knowledge</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiMiniSearch.cpp">
+      <Filter>Knowledge</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiJLMctsHandler.cpp">
+      <Filter>MonteCarlo</Filter>
+    </ClCompile>
+    <ClCompile Include="arguments.cpp">
+      <Filter>Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiEdgeHandler.cpp">
+      <Filter>feature\Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticEdge.cpp">
+      <Filter>Board</Filter>
+    </ClCompile>
+    <ClCompile Include="DbOpening.cpp">
+      <Filter>DbOpening</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveLocation.cpp">
+      <Filter>DbOpening</Filter>
+    </ClCompile>
+    <ClCompile Include="IsomorphicMinHashKey.cpp">
+      <Filter>DbOpening</Filter>
+    </ClCompile>
+    <ClCompile Include="DbMove.cpp">
+      <Filter>DbOpening</Filter>
+    </ClCompile>
+    <ClCompile Include="DbHashTable.cpp">
+      <Filter>DbOpening</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiSemeaiHandler.cpp">
+      <Filter>feature\Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite3.c">
+      <Filter>DbOpening</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiPlayoutGtpEngine.cpp">
+      <Filter>Main\GtpEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiBoardStructureGtpEngine.cpp">
+      <Filter>Main\GtpEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiUctGtpEngine.cpp">
+      <Filter>Main\GtpEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiCommonGtpEngine.cpp">
+      <Filter>Main\GtpEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiKBGtpEngine.cpp">
+      <Filter>Main\GtpEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SgfLoader.cpp">
+      <Filter>Main\GtpEngine\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiGtpUtil.cpp">
+      <Filter>Main\GtpEngine\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiBaseGtpEngine.cpp">
+      <Filter>Main\GtpEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiParamGtpEngine.cpp">
+      <Filter>Main\GtpEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiBadMoveReader.cpp">
+      <Filter>Knowledge</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiLadderReader.cpp">
+      <Filter>Knowledge</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiLowLibReader.cpp">
+      <Filter>Knowledge</Filter>
+    </ClCompile>
+    <ClCompile Include="Pattern33Builder.cpp">
+      <Filter>Pattern\Pattern33</Filter>
+    </ClCompile>
+    <ClCompile Include="Pattern33Parser.cpp">
+      <Filter>Pattern\Pattern33</Filter>
+    </ClCompile>
+    <ClCompile Include="Pattern33Table.cpp">
+      <Filter>Pattern\Pattern33</Filter>
+    </ClCompile>
+    <ClCompile Include="PatternTest.cpp">
+      <Filter>Pattern\Pattern33</Filter>
+    </ClCompile>
+    <ClCompile Include="PatternUtils.cpp">
+      <Filter>Pattern\Pattern33</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiRadiusPatternTable.cpp">
+      <Filter>Pattern\RadiusPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiLocalSearch.cpp">
+      <Filter>Knowledge\LocalSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiLocalSearchHandler.cpp">
+      <Filter>Knowledge\LocalSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiLocalSequence.cpp">
+      <Filter>feature</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiDynamicKomi.cpp">
+      <Filter>Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiStopCondition.cpp">
+      <Filter>MonteCarlo</Filter>
+    </ClCompile>
+    <ClCompile Include="MovePredictorStatistic.cpp">
+      <Filter>Training\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiProbabilityPlayoutHandler.cpp">
+      <Filter>feature\Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiProbabilityTable.cpp">
+      <Filter>feature</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiCNNFeatureGenerator.cpp">
+      <Filter>feature\CNN</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiLGRTable.cpp">
+      <Filter>feature</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiCNNGtpEngine.cpp">
+      <Filter>Main\GtpEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiCNNSLNet.cpp">
+      <Filter>feature\CNN</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiMoveCache.cpp">
+      <Filter>feature</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiCacheLogger.cpp">
+      <Filter>Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiGlobalInfo.cpp">
+      <Filter>Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="RLDCNN.cpp">
+      <Filter>Training\RLDCNN</Filter>
+    </ClCompile>
+    <ClCompile Include="RLPlayoutGenerator.cpp">
+      <Filter>Training\RLDCNN</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseCNNPlayoutGenerator.cpp">
+      <Filter>feature\CNN</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiTrainGtpEngine.cpp">
+      <Filter>Main\GtpEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiCNNTrainNet.cpp">
+      <Filter>feature\CNN</Filter>
+    </ClCompile>
+    <ClCompile Include="TCaffe.cpp">
+      <Filter>Training\TCaffe</Filter>
+    </ClCompile>
+    <ClCompile Include="Train.cpp">
+      <Filter>Training\Train</Filter>
+    </ClCompile>
+    <ClCompile Include="TrainGenerator.cpp">
+      <Filter>Training\Train</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiUctCNNHandler.cpp">
+      <Filter>feature\CNN</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiAcceptor.cpp">
+      <Filter>Clustering\Parallel CNN</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiWorker.cpp">
+      <Filter>Clustering\Parallel CNN</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiWorkerStatus.cpp">
+      <Filter>Clustering\Parallel CNN</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiRemoteCNNJob.cpp">
+      <Filter>Clustering\Parallel CNN</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiCNNRLNet.cpp">
+      <Filter>feature\CNN</Filter>
+    </ClCompile>
+    <ClCompile Include="GenSgf.cpp">
+      <Filter>Training</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiLogger.cpp">
+      <Filter>Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiCNNNet.cpp">
+      <Filter>feature\CNN</Filter>
+    </ClCompile>
+    <ClCompile Include="TMiniMCTS.cpp">
+      <Filter>Training\Zero</Filter>
+    </ClCompile>
+    <ClCompile Include="ZeroSelfPlay.cpp">
+      <Filter>Training\Zero</Filter>
+    </ClCompile>
+    <ClCompile Include="ZeroOptimization.cpp">
+      <Filter>Training\Zero</Filter>
+    </ClCompile>
+    <ClCompile Include="ZeroWorkerHandler.cpp">
+      <Filter>Training\Zero</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiRZoneHandler.cpp">
+      <Filter>feature\Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiLifeDeathGtpEngine.cpp">
+      <Filter>Main\GtpEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiLifeDeathHandler.cpp">
+      <Filter>feature\Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiDragonHandler.cpp">
+      <Filter>feature\Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiEyeHandler.cpp">
+      <Filter>feature\Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiLifeDeathKnowledge.cpp">
+      <Filter>feature</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiConnectorHandler.cpp">
+      <Filter>feature\Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiOpenedArea.cpp">
+      <Filter>feature</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiOpenedAreaHandler.cpp">
+      <Filter>feature\Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiQuickWinHandler.cpp">
+      <Filter>feature\Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="RZoneTranspositionTable.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiEndGameCondition.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="TTentry.cpp">
+      <Filter>feature</Filter>
+    </ClCompile>
+    <ClCompile Include="WeichiSafetySolver.cpp">
+      <Filter>feature</Filter>
+    </ClCompile>
+    <ClCompile Include="TsumegoSolver.cpp">
+      <Filter>Tsumego</Filter>
+    </ClCompile>
+    <ClCompile Include="TTutility.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StaticBoard.h">
+      <Filter>Board</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticGrid.h">
+      <Filter>Board</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiBoard.h">
+      <Filter>Board</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiGrid.h">
+      <Filter>Board</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicType.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiMove.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiHashGenerator.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="rand64.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiBlock.h">
+      <Filter>feature</Filter>
+    </ClInclude>
+    <ClInclude Include="CandidateList.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="list.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatureList.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenAddrHashTable.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiThreadState.h">
+      <Filter>MonteCarlo</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiUctAccessor.h">
+      <Filter>MonteCarlo</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiUctNode.h">
+      <Filter>MonteCarlo</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiMoveDecisionMaker.h">
+      <Filter>MonteCarlo</Filter>
+    </ClInclude>
+    <ClInclude Include="concepts.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiConfigure.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiBitBoard.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Dual.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="FeaturePtrList.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiPlayoutAgent.h">
+      <Filter>MonteCarlo</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiPlayoutResult.h">
+      <Filter>MonteCarlo</Filter>
+    </ClInclude>
+    <ClInclude Include="Territory.h">
+      <Filter>Board</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiPrunePolicy.h">
+      <Filter>MonteCarlo</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiClosedArea.h">
+      <Filter>feature</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiEdge.h">
+      <Filter>feature</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatureIndexList.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingBox.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiLifeAndDeathStatus.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiPlayoutPolicy.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiCAHandler.h">
+      <Filter>feature\Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiLGRTable.h">
+      <Filter>feature</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiMoveFeatureHandler.h">
+      <Filter>feature\Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiMoveFeatureType.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiGammaTable.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiGtpEngine.h">
+      <Filter>Main\GtpEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="GtpRGBColor.h">
+      <Filter>Main\GtpEngine\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GtpColorGradient.h">
+      <Filter>Main\GtpEngine\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiMoveFeature.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="RadiusGammaOpenAddrHashTable.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="BoardMoveStack.h">
+      <Filter>Board\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="BoardStatus.h">
+      <Filter>Board\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="PredictPlayInfo.h">
+      <Filter>Board\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiRootFilter.h">
+      <Filter>MonteCarlo</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiBadMoveType.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiBlockSearchResult.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiKnowledgeBase.h">
+      <Filter>Knowledge</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiMiniSearch.h">
+      <Filter>Knowledge</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiEdgeType.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiEdgeHandler.h">
+      <Filter>feature\Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticEdge.h">
+      <Filter>Board</Filter>
+    </ClInclude>
+    <ClInclude Include="arguments.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiJLMctsHandler.h">
+      <Filter>MonteCarlo</Filter>
+    </ClInclude>
+    <ClInclude Include="DbOpening.h">
+      <Filter>DbOpening</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite3.h">
+      <Filter>DbOpening</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLite.h">
+      <Filter>DbOpening</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveLocation.h">
+      <Filter>DbOpening</Filter>
+    </ClInclude>
+    <ClInclude Include="IsomorphicMinHashKey.h">
+      <Filter>DbOpening</Filter>
+    </ClInclude>
+    <ClInclude Include="DbMove.h">
+      <Filter>DbOpening</Filter>
+    </ClInclude>
+    <ClInclude Include="DbHashTable.h">
+      <Filter>DbOpening</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiSemeaiResult.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiSemeaiInfo.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiSemeaiHandler.h">
+      <Filter>feature\Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiPlayoutGtpEngine.h">
+      <Filter>Main\GtpEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiBoardStructureGtpEngine.h">
+      <Filter>Main\GtpEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiUctGtpEngine.h">
+      <Filter>Main\GtpEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiKBGtpEngine.h">
+      <Filter>Main\GtpEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiCommonGtpEngine.h">
+      <Filter>Main\GtpEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SgfLoader.h">
+      <Filter>Main\GtpEngine\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiGtpUtil.h">
+      <Filter>Main\GtpEngine\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiBaseGtpEngine.h">
+      <Filter>Main\GtpEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiParamGtpEngine.h">
+      <Filter>Main\GtpEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiBadMoveReader.h">
+      <Filter>Knowledge</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiLadderReader.h">
+      <Filter>Knowledge</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiLadderType.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiLowLibReader.h">
+      <Filter>Knowledge</Filter>
+    </ClInclude>
+    <ClInclude Include="PatternUtils.h">
+      <Filter>Pattern\Pattern33</Filter>
+    </ClInclude>
+    <ClInclude Include="Pattern33Builder.h">
+      <Filter>Pattern\Pattern33</Filter>
+    </ClInclude>
+    <ClInclude Include="Pattern33Entry.h">
+      <Filter>Pattern\Pattern33</Filter>
+    </ClInclude>
+    <ClInclude Include="Pattern33Parser.h">
+      <Filter>Pattern\Pattern33</Filter>
+    </ClInclude>
+    <ClInclude Include="Pattern33Table.h">
+      <Filter>Pattern\Pattern33</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiRadiusPatternTable.h">
+      <Filter>Pattern\RadiusPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiRadiusPatternAttribute.h">
+      <Filter>Pattern\RadiusPattern\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiLocalSearch.h">
+      <Filter>Knowledge\LocalSearch</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiLocalSearchNode.h">
+      <Filter>Knowledge\LocalSearch</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiLocalSearchTree.h">
+      <Filter>Knowledge\LocalSearch</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiLocalSearchHandler.h">
+      <Filter>Knowledge\LocalSearch</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiLocalSequence.h">
+      <Filter>feature</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiDynamicKomi.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiStopCondition.h">
+      <Filter>MonteCarlo</Filter>
+    </ClInclude>
+    <ClInclude Include="Pattern33Regex.h">
+      <Filter>Pattern\Pattern33</Filter>
+    </ClInclude>
+    <ClInclude Include="TrainMode.h">
+      <Filter>Training\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="TrainShareData.h">
+      <Filter>Training\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="FileDirectoryExplorer.h">
+      <Filter>Training\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MovePredictorStatistic.h">
+      <Filter>Training\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiProbabilityPlayoutHandler.h">
+      <Filter>feature\Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="Pattern2051.h">
+      <Filter>Pattern\RadiusPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiProbabilityTable.h">
+      <Filter>feature</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiRootShifter.h">
+      <Filter>MonteCarlo</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiCNNFeatureGenerator.h">
+      <Filter>feature\CNN</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseCNNNet.h">
+      <Filter>feature\CNN</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiCNNGtpEngine.h">
+      <Filter>Main\GtpEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiCNNFeatureType.h">
+      <Filter>feature\CNN</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiProxy.h">
+      <Filter>Clustering\Parallel MCTS</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiSlaveThread.h">
+      <Filter>MonteCarlo</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiMasterThread.h">
+      <Filter>MonteCarlo</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiCNNServer.h">
+      <Filter>Clustering\Parallel CNN</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiMonteCarlo.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiCNNSLNet.h">
+      <Filter>feature\CNN</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiMoveCache.h">
+      <Filter>feature</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiCacheLogger.h">
+      <Filter>Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkListHashTable.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CandidateEntry.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="UctNodeOrder.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiGlobalInfo.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="RLDCNN.h">
+      <Filter>Training\RLDCNN</Filter>
+    </ClInclude>
+    <ClInclude Include="RLPlayoutGenerator.h">
+      <Filter>Training\RLDCNN</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseCNNPlayoutGenerator.h">
+      <Filter>feature\CNN</Filter>
+    </ClInclude>
+    <ClInclude Include="RLShareData.h">
+      <Filter>Training\RLDCNN</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiTrainGtpEngine.h">
+      <Filter>Main\GtpEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInfo.h">
+      <Filter>Training\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiCNNTrainNet.h">
+      <Filter>feature\CNN</Filter>
+    </ClInclude>
+    <ClInclude Include="TCaffe.h">
+      <Filter>Training\TCaffe</Filter>
+    </ClInclude>
+    <ClInclude Include="TBaseMasterSlave.h">
+      <Filter>Training\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="TrainGenerator.h">
+      <Filter>Training\Train</Filter>
+    </ClInclude>
+    <ClInclude Include="Train.h">
+      <Filter>Training\Train</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiUctCNNHandler.h">
+      <Filter>feature\CNN</Filter>
+    </ClInclude>
+    <ClInclude Include="DCNNNetCollection.h">
+      <Filter>feature\CNN</Filter>
+    </ClInclude>
+    <ClInclude Include="CNNJobQueue.h">
+      <Filter>feature\CNN</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiCNNNetType.h">
+      <Filter>feature\CNN</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiCNNBVVNNet.h">
+      <Filter>feature\CNN</Filter>
+    </ClInclude>
+    <ClInclude Include="SimulationBalancing.h">
+      <Filter>Training</Filter>
+    </ClInclude>
+    <ClInclude Include="TBaseServerClient.h">
+      <Filter>Training\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiAcceptor.h">
+      <Filter>Clustering\Parallel CNN</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiWorker.h">
+      <Filter>Clustering\Parallel CNN</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiWorkerStatus.h">
+      <Filter>Clustering\Parallel CNN</Filter>
+    </ClInclude>
+    <ClInclude Include="Pattern7533.h">
+      <Filter>Pattern\RadiusPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiBaseRemoteJob.h">
+      <Filter>Clustering\Parallel CNN</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiRemoteCNNJob.h">
+      <Filter>Clustering\Parallel CNN</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiRemoteCNNJobTable.h">
+      <Filter>Clustering\Parallel CNN</Filter>
+    </ClInclude>
+    <ClInclude Include="TBaseAsyncServerClient.h">
+      <Filter>Training\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="DCNNNetResult.h">
+      <Filter>feature\CNN</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiCNNRLNet.h">
+      <Filter>feature\CNN</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseJobQueue.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GenSgf.h">
+      <Filter>Training</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiBaseRemoteJobTable.h">
+      <Filter>Clustering\Parallel CNN</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiLogger.h">
+      <Filter>Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiCNNNet.h">
+      <Filter>feature\CNN</Filter>
+    </ClInclude>
+    <ClInclude Include="TMiniMCTS.h">
+      <Filter>Training\Zero</Filter>
+    </ClInclude>
+    <ClInclude Include="ZeroSelfPlay.h">
+      <Filter>Training\Zero</Filter>
+    </ClInclude>
+    <ClInclude Include="ZeroOptimization.h">
+      <Filter>Training\Zero</Filter>
+    </ClInclude>
+    <ClInclude Include="ZeroWorkerHandler.h">
+      <Filter>Training\Zero</Filter>
+    </ClInclude>
+    <ClInclude Include="TBaseWorkerHandler.h">
+      <Filter>Training\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SgfTag.h">
+      <Filter>Main\GtpEngine\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenAddressHashTable.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiUctNodeStatus.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiRZoneDataTable.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiRZoneDataTableEntry.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiRZoneHandler.h">
+      <Filter>feature\Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiLifeDeathGtpEngine.h">
+      <Filter>Main\GtpEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiLifeDeathHandler.h">
+      <Filter>feature\Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiDragon.h">
+      <Filter>feature</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiDragonHandler.h">
+      <Filter>feature\Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiEyeHandler.h">
+      <Filter>feature\Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiLifeDeathKnowledge.h">
+      <Filter>feature</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiConnectorHandler.h">
+      <Filter>feature\Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiConnector.h">
+      <Filter>feature</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiOpenedArea.h">
+      <Filter>feature</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiOpenedAreaHandler.h">
+      <Filter>feature\Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiQuickWinHandler.h">
+      <Filter>feature\Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="RZoneTranspositionTable.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiEndGameCondition.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiSearchGoal.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="BoardTranspositionTable.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="TTentry.h">
+      <Filter>feature</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiEyeStatus.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="WeichiSafetySolver.h">
+      <Filter>feature</Filter>
+    </ClInclude>
+    <ClInclude Include="TsumegoSolver.h">
+      <Filter>Tsumego</Filter>
+    </ClInclude>
+    <ClInclude Include="TTstatistic.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="TTutility.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="RZoneLinearTT.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Zone7x7Bitboard.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="TTSummary.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

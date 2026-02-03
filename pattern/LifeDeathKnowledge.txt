@@ -1,0 +1,55 @@
+@  X
+@  WB
+@  .WX
+@  .W
+@  X
+WhiteLibTightenType=DIRV8_lxuXrxdx
+
+@  X
+@  BB
+@  wBX
+@  .B
+@  X
+Black2LibInnerLib=True
+
+@  X
+@  BB
+@  .BX
+@  BB
+@  X
+Black2LibInnerLib=True
+
+@  X
+@ BBB
+@XB.BX
+@ BBB
+@  X
+Black2LibInnerLib=True
+
+@  X
+@  BB
+@  .BX
+@     
+@   
+Black2LibInnerLib=True
+
+@  X
+@ BWB
+@XWbWX
+@ WbW
+@  X
+WhiteFalseEye2stone=True
+
+@  X
+@  WB
+@  bWX
+@  bW
+@  X
+WhiteFalseEye2stone=True
+
+@  X
+@ .W.
+@Xw.WX
+@     
+@     
+WhiteCheckProectedConnected2lib=True

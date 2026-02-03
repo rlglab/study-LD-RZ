@@ -1,0 +1,180 @@
+define ORDER_0	0
+define ORDER_1	1
+define ORDER_2	2
+define ORDER_3	3
+define ORDER_4	4
+define ORDER_5	5
+define ORDER_6	6
+define ORDER_7	7
+define ORDER_8	8
+define ORDER_9	9
+define ORDER_10	10
+define ORDER_11	11
+define ORDER_12	12
+define ORDER_13	13
+define ORDER_14	14
+define ORDER_15	15
+define ORDER_16	16
+define ORDER_17	17
+
+#1 打吃(連接)
+@  X
+@ BWB
+@X...X
+@ ***
+@  X
+BlackGoodPatternOrder=ORDER_0(5)
+BlackGoodPattern=TRUE
+
+#11 連接
+@  X
+@ *W*
+@XB.BX
+@ www
+@  X
+BlackGoodPatternOrder=ORDER_1(5)
+BlackGoodPattern=TRUE
+
+#10 衝斷 revise
+@  X
+@ *B*
+@XW.WX
+@ *b*
+@  X
+BlackGoodPatternOrder=ORDER_2(5)
+BlackGoodPattern=TRUE
+
+#3 扳
+@  X
+@ BW.
+@X...X
+@ *.*
+@  X
+BlackGoodPatternOrder=ORDER_3(5)
+BlackGoodPattern=TRUE
+
+#9 黏
+@  X
+@ WB*
+@XB.wX
+@ *w*
+@  X
+BlackGoodPatternOrder=ORDER_4(5)
+BlackGoodPattern=TRUE
+
+#2 分斷
+@  X
+@ WBW
+@X...X
+@ ***
+@  X
+BlackGoodPatternOrder=ORDER_5(5)
+BlackGoodPattern=TRUE
+
+#5 拐
+@  X
+@ BW*
+@XB..X
+@ *.*
+@  X
+BlackGoodPatternOrder=ORDER_6(5)
+BlackGoodPattern=TRUE
+
+#6 跟著長
+@  X
+@ WB*
+@XW..X
+@ *.*
+@  X
+BlackGoodPatternOrder=ORDER_7(5)
+BlackGoodPattern=TRUE
+
+#9 黏 revise1
+@  X
+@ WB*
+@XB.wX
+@ *b*
+@  X
+BlackGoodPatternOrder=ORDER_9(5)
+BlackGoodPattern=TRUE
+
+#4 長
+@  X
+@ WB.
+@X...X
+@ *.*
+@  X
+BlackGoodPatternOrder=ORDER_10(5)
+BlackGoodPattern=TRUE
+
+#8 斷
+@  X
+@ BW*
+@XW.bX
+@ *b*
+@  X
+BlackGoodPatternOrder=ORDER_11(5)
+BlackGoodPattern=TRUE
+
+#14 一線立
+@  X
+@ *B*
+@Xw.WX
+@    
+@   
+BlackGoodPatternOrder=ORDER_12(5)
+BlackGoodPattern=TRUE
+
+#13 一線長
+@  X
+@ W.*
+@XB.*X
+@    
+@   
+BlackGoodPatternOrder=ORDER_13(5)
+BlackGoodPattern=TRUE
+
+#17 一線扳
+@  X
+@ *WB
+@X*.bX
+@    
+@   
+BlackGoodPatternOrder=ORDER_14(5)
+BlackGoodPattern=TRUE
+
+#18 一線斷
+@  X
+@ *WB
+@XB.WX
+@    
+@   
+BlackGoodPatternOrder=ORDER_15(5)
+BlackGoodPattern=TRUE
+
+# 16 一線立
+@  X
+@ *BW
+@Xw.*X
+@    
+@   
+BlackGoodPatternOrder=ORDER_16(5)
+BlackGoodPattern=TRUE
+
+#7 扳
+@  X
+@ BWW
+@X...X
+@ *.*
+@  X
+BlackGoodPatternOrder=ORDER_17(5)
+BlackGoodPattern=TRUE
+
+##15 一線長(連接)
+#ID = BlackGoodPattern
+#VALUE = TRUE
+#@  X
+#@ *W*
+#@Xb.BX
+#@    
+#@

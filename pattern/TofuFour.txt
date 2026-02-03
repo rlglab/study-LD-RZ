@@ -1,0 +1,20 @@
+@  X
+@ www
+@Xw..X
+@ w..
+@  X
+BlackTofuFour=true
+
+@  X
+@  ..
+@  ..X
+@  ww
+@  X
+BlackTofuFour=true
+
+@  X
+@  ..
+@  ..X
+@     
+@   
+BlackTofuFour=true

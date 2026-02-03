@@ -1,0 +1,22 @@
+# ¸É²´
+
+@  X
+@ b.*
+@X..*X
+@ BB*
+@  X
+Black2LibJump=DIR4_U
+
+@  X
+@ *.b
+@X*..X
+@ *BB
+@  X
+Black2LibJump=DIR4_U
+
+@  X
+@  .b
+@  ..X
+@  BB
+@  X
+Black2LibJump=DIR4_U

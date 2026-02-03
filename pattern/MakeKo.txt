@@ -1,0 +1,20 @@
+@  X
+@ *BW
+@XB..X
+@ *BW
+@  X
+BlackMakeKo=DIR4_R
+
+@  X
+@  .W
+@  .BX
+@  B*
+@  X
+BlackMakeKo=DIR4_U
+
+@  X
+@  BW
+@  ..X
+@    
+@   
+BlackMakeKo=DIR4_R

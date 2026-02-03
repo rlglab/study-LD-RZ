@@ -1,0 +1,57 @@
+# direction indicate the only liberty of center grid
+
+@  X
+@ *W*
+@X..WX
+@ *W*
+@  X
+BlackOnlyOneLiberty=DIR4_L
+
+@  X
+@ *W*
+@X..WX
+@    
+@   
+BlackOnlyOneLiberty=DIR4_L
+
+@  X
+@ *W 
+@X..  
+@ *W 
+@  X
+BlackOnlyOneLiberty=DIR4_L
+
+@  X
+@ *W 
+@X..  
+@    
+@   
+BlackOnlyOneLiberty=DIR4_L
+
+@  X
+@ *B*
+@X..BX
+@ *B*
+@  X
+WhiteOnlyOneLiberty=DIR4_L
+
+@  X
+@ *B*
+@X..BX
+@    
+@   
+WhiteOnlyOneLiberty=DIR4_L
+
+@  X
+@ *B 
+@X..  
+@ *B 
+@  X
+WhiteOnlyOneLiberty=DIR4_L
+
+@  X
+@ *B 
+@X..  
+@    
+@   
+WhiteOnlyOneLiberty=DIR4_L

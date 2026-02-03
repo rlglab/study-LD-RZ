@@ -1,0 +1,34 @@
+@  X
+@ *.B
+@XW.WX
+@ *WB
+@  X
+WhiteMakeKoBaseDir=DIR4_U
+
+@  X
+@ *WB
+@X..WX
+@ *WB
+@  X
+WhiteMakeKoBaseDir=DIR4_L
+
+@  X
+@  WB
+@  .WX
+@  .*
+@  X
+WhiteMakeKoBaseDir=DIR4_D
+
+@  X
+@  WB
+@  ..X
+@  W*
+@  X
+WhiteMakeKoBaseDir=DIR4_R
+
+@  X
+@  WB
+@  ..X
+@    
+@   
+WhiteMakeKoBaseDir=DIR4_R

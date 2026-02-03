@@ -1,0 +1,482 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E95E4F53-1B02-45B1-A5FF-43A576CB6573}</ProjectGuid>
+    <RootNamespace>CGI</RootNamespace>
+    <ProjectName>CGI</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(Configuration)\$(Platform)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(Configuration)\$(Platform)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)\$(Configuration)\$(Platform)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>$(Configuration)\$(Platform)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)\$(Configuration)\$(Platform)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IntDir>$(Configuration)\$(Platform)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\MCTPS;$(BOOST_ROOT);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <DisableSpecificWarnings>4819;4005;</DisableSpecificWarnings>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions);WIN32_LEAN_AND_MEAN</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(BOOST_ROOT)\stage\x86\lib;$(BOOST_ROOT)\stage\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <Profile>true</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\MCTPS;$(BOOST_ROOT);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <DisableSpecificWarnings>4819;4005;</DisableSpecificWarnings>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions);WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0601</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(BOOST_ROOT)\stage\x64\lib;$(BOOST_ROOT)\stage\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <Profile>true</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>..\MCTPS;$(BOOST_ROOT);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4819;4005;</DisableSpecificWarnings>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions);WIN32_LEAN_AND_MEAN</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(BOOST_ROOT)\stage\x86\lib;$(BOOST_ROOT)\stage\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <Profile>true</Profile>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>..\MCTPS;$(BOOST_ROOT);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4819;4005;4334</DisableSpecificWarnings>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions);WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0601</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(BOOST_ROOT)\stage\x64\lib;$(BOOST_ROOT)\stage\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <Profile>true</Profile>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MCTPS\MCTPS.vcxproj">
+      <Project>{d22cb615-841a-4db0-8747-a433035edea5}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="arguments.cpp" />
+    <ClCompile Include="BaseCNNPlayoutGenerator.cpp" />
+    <ClCompile Include="DbHashTable.cpp" />
+    <ClCompile Include="DbMove.cpp" />
+    <ClCompile Include="DbOpening.cpp" />
+    <ClCompile Include="GenSgf.cpp" />
+    <ClCompile Include="MovePredictorStatistic.cpp" />
+    <ClCompile Include="RLDCNN.cpp" />
+    <ClCompile Include="RLPlayoutGenerator.cpp" />
+    <ClCompile Include="RZoneTranspositionTable.cpp" />
+    <ClCompile Include="TCaffe.cpp" />
+    <ClCompile Include="TMiniMCTS.cpp" />
+    <ClCompile Include="TrainGenerator.cpp" />
+    <ClCompile Include="HappyGoMain.cpp" />
+    <ClCompile Include="IsomorphicMinHashKey.cpp" />
+    <ClCompile Include="MoveLocation.cpp" />
+    <ClCompile Include="Pattern33Builder.cpp" />
+    <ClCompile Include="Pattern33Parser.cpp" />
+    <ClCompile Include="Pattern33Table.cpp" />
+    <ClCompile Include="PatternTest.cpp" />
+    <ClCompile Include="PatternUtils.cpp" />
+    <ClCompile Include="rand64.cpp" />
+    <ClCompile Include="SgfLoader.cpp" />
+    <ClCompile Include="sqlite3.c" />
+    <ClCompile Include="StaticBoard.cpp" />
+    <ClCompile Include="StaticEdge.cpp" />
+    <ClCompile Include="StaticGrid.cpp" />
+    <ClCompile Include="Territory.cpp" />
+    <ClCompile Include="Train.cpp" />
+    <ClCompile Include="TsumegoSolver.cpp" />
+    <ClCompile Include="TTentry.cpp" />
+    <ClCompile Include="TTutility.cpp" />
+    <ClCompile Include="WeichiAcceptor.cpp" />
+    <ClCompile Include="WeichiBadMoveReader.cpp" />
+    <ClCompile Include="WeichiBaseGtpEngine.cpp" />
+    <ClCompile Include="WeichiBlock.cpp" />
+    <ClCompile Include="WeichiBoard.cpp" />
+    <ClCompile Include="WeichiBoard.invariance.cpp" />
+    <ClCompile Include="WeichiBoardStructureGtpEngine.cpp" />
+    <ClCompile Include="WeichiCacheLogger.cpp" />
+    <ClCompile Include="WeichiCAHandler.cpp" />
+    <ClCompile Include="WeichiClosedArea.cpp" />
+    <ClCompile Include="WeichiCNNFeatureGenerator.cpp" />
+    <ClCompile Include="WeichiCNNGtpEngine.cpp" />
+    <ClCompile Include="WeichiCNNNet.cpp" />
+    <ClCompile Include="WeichiCNNRLNet.cpp" />
+    <ClCompile Include="WeichiCNNSLNet.cpp" />
+    <ClCompile Include="WeichiCNNTrainNet.cpp" />
+    <ClCompile Include="WeichiCommonGtpEngine.cpp" />
+    <ClCompile Include="WeichiConfigure.cpp" />
+    <ClCompile Include="WeichiConnectorHandler.cpp" />
+    <ClCompile Include="WeichiEndGameCondition.cpp" />
+    <ClCompile Include="WeichiQuickWinHandler.cpp" />
+    <ClCompile Include="WeichiDragonHandler.cpp" />
+    <ClCompile Include="WeichiDynamicKomi.cpp" />
+    <ClCompile Include="WeichiEdge.cpp" />
+    <ClCompile Include="WeichiEdgeHandler.cpp" />
+    <ClCompile Include="WeichiEyeHandler.cpp" />
+    <ClCompile Include="WeichiGammaTable.cpp" />
+    <ClCompile Include="WeichiGlobalInfo.cpp" />
+    <ClCompile Include="WeichiGrid.cpp" />
+    <ClCompile Include="WeichiGtpEngine.cpp" />
+    <ClCompile Include="WeichiGtpUtil.cpp" />
+    <ClCompile Include="WeichiJLMctsHandler.cpp" />
+    <ClCompile Include="WeichiKBGtpEngine.cpp" />
+    <ClCompile Include="WeichiKnowledgeBase.cpp" />
+    <ClCompile Include="WeichiLadderReader.cpp" />
+    <ClCompile Include="WeichiLGRTable.cpp" />
+    <ClCompile Include="WeichiLifeDeathGtpEngine.cpp" />
+    <ClCompile Include="WeichiLifeDeathHandler.cpp" />
+    <ClCompile Include="WeichiLifeDeathKnowledge.cpp" />
+    <ClCompile Include="WeichiLocalSearchHandler.cpp" />
+    <ClCompile Include="WeichiLocalSearch.cpp" />
+    <ClCompile Include="WeichiLocalSequence.cpp" />
+    <ClCompile Include="WeichiLogger.cpp" />
+    <ClCompile Include="WeichiLowLibReader.cpp" />
+    <ClCompile Include="WeichiMiniSearch.cpp" />
+    <ClCompile Include="WeichiMoveCache.cpp" />
+    <ClCompile Include="WeichiMoveDecisionMaker.cpp" />
+    <ClCompile Include="WeichiMoveFeatureHandler.cpp" />
+    <ClCompile Include="WeichiParamGtpEngine.cpp" />
+    <ClCompile Include="WeichiOpenedArea.cpp" />
+    <ClCompile Include="WeichiOpenedAreaHandler.cpp" />
+    <ClCompile Include="WeichiPlayoutGtpEngine.cpp" />
+    <ClCompile Include="WeichiProbabilityPlayoutHandler.cpp" />
+    <ClCompile Include="WeichiProbabilityTable.cpp" />
+    <ClCompile Include="WeichiRadiusPatternTable.cpp" />
+    <ClCompile Include="WeichiRemoteCNNJob.cpp" />
+    <ClCompile Include="WeichiRootFilter.cpp" />
+    <ClCompile Include="WeichiPlayoutAgent.cpp" />
+    <ClCompile Include="WeichiRZoneHandler.cpp" />
+    <ClCompile Include="WeichiSafetySolver.cpp" />
+    <ClCompile Include="WeichiSemeaiHandler.cpp" />
+    <ClCompile Include="WeichiStopCondition.cpp" />
+    <ClCompile Include="WeichiThreadState.cpp" />
+    <ClCompile Include="WeichiTrainGtpEngine.cpp" />
+    <ClCompile Include="WeichiUctAccessor.cpp" />
+    <ClCompile Include="WeichiUctCNNHandler.cpp" />
+    <ClCompile Include="WeichiUctGtpEngine.cpp" />
+    <ClCompile Include="WeichiWorker.cpp" />
+    <ClCompile Include="WeichiWorkerStatus.cpp" />
+    <ClCompile Include="ZeroOptimization.cpp" />
+    <ClCompile Include="ZeroSelfPlay.cpp" />
+    <ClCompile Include="ZeroWorkerHandler.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="arguments.h" />
+    <ClInclude Include="BaseJobQueue.h" />
+    <ClInclude Include="BoardTranspositionTable.h" />
+    <ClInclude Include="CNNJobQueue.h" />
+    <ClInclude Include="DCNNNetCollection.h" />
+    <ClInclude Include="BaseCNNNet.h" />
+    <ClInclude Include="BaseCNNPlayoutGenerator.h" />
+    <ClInclude Include="BasicType.h" />
+    <ClInclude Include="BoardMoveStack.h" />
+    <ClInclude Include="BoardStatus.h" />
+    <ClInclude Include="BoundingBox.h" />
+    <ClInclude Include="CandidateEntry.h" />
+    <ClInclude Include="CandidateList.h" />
+    <ClInclude Include="Color.h" />
+    <ClInclude Include="concepts.h" />
+    <ClInclude Include="DbHashTable.h" />
+    <ClInclude Include="DbMove.h" />
+    <ClInclude Include="DbOpening.h" />
+    <ClInclude Include="DCNNNetResult.h" />
+    <ClInclude Include="Dual.h" />
+    <ClInclude Include="FeatureIndexList.h" />
+    <ClInclude Include="FeatureList.h" />
+    <ClInclude Include="FeaturePtrList.h" />
+    <ClInclude Include="FileDirectoryExplorer.h" />
+    <ClInclude Include="GameInfo.h" />
+    <ClInclude Include="LinkListHashTable.h" />
+    <ClInclude Include="MovePredictorStatistic.h" />
+    <ClInclude Include="OpenAddressHashTable.h" />
+    <ClInclude Include="Pattern2051.h" />
+    <ClInclude Include="Pattern7533.h" />
+    <ClInclude Include="RLDCNN.h" />
+    <ClInclude Include="GenSgf.h" />
+    <ClInclude Include="RLPlayoutGenerator.h" />
+    <ClInclude Include="RLShareData.h" />
+    <ClInclude Include="RZoneLinearTT.h" />
+    <ClInclude Include="SgfTag.h" />
+    <ClInclude Include="SimulationBalancing.h" />
+    <ClInclude Include="TBaseAsyncServerClient.h" />
+    <ClInclude Include="TBaseMasterSlave.h" />
+    <ClInclude Include="TBaseWorkerHandler.h" />
+    <ClInclude Include="TCaffe.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="TMiniMCTS.h" />
+    <ClInclude Include="TrainGenerator.h" />
+    <ClInclude Include="GtpColorGradient.h" />
+    <ClInclude Include="GtpRGBColor.h" />
+    <ClInclude Include="IsomorphicMinHashKey.h" />
+    <ClInclude Include="list.h" />
+    <ClInclude Include="MoveLocation.h" />
+    <ClInclude Include="OpenAddrHashTable.h" />
+    <ClInclude Include="Pattern33Builder.h" />
+    <ClInclude Include="Pattern33Entry.h" />
+    <ClInclude Include="Pattern33Parser.h" />
+    <ClInclude Include="Pattern33Regex.h" />
+    <ClInclude Include="Pattern33Table.h" />
+    <ClInclude Include="PatternUtils.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="PredictPlayInfo.h" />
+    <ClInclude Include="RadiusGammaOpenAddrHashTable.h" />
+    <ClInclude Include="rand64.h" />
+    <ClInclude Include="SgfLoader.h" />
+    <ClInclude Include="SQLite.h" />
+    <ClInclude Include="sqlite3.h" />
+    <ClInclude Include="StaticBoard.h" />
+    <ClInclude Include="StaticEdge.h" />
+    <ClInclude Include="StaticGrid.h" />
+    <ClInclude Include="Territory.h" />
+    <ClInclude Include="Train.h" />
+    <ClInclude Include="TrainMode.h" />
+    <ClInclude Include="TrainShareData.h" />
+    <ClInclude Include="TBaseServerClient.h" />
+    <ClInclude Include="RZoneTranspositionTable.h" />
+    <ClInclude Include="TsumegoSolver.h" />
+    <ClInclude Include="TTentry.h" />
+    <ClInclude Include="TTstatistic.h" />
+    <ClInclude Include="TTSummary.h" />
+    <ClInclude Include="TTutility.h" />
+    <ClInclude Include="UctNodeOrder.h" />
+    <ClInclude Include="WeichiAcceptor.h" />
+    <ClInclude Include="WeichiBadMoveReader.h" />
+    <ClInclude Include="WeichiBadMoveType.h" />
+    <ClInclude Include="WeichiBaseGtpEngine.h" />
+    <ClInclude Include="WeichiBaseRemoteJob.h" />
+    <ClInclude Include="WeichiBaseRemoteJobTable.h" />
+    <ClInclude Include="WeichiBitBoard.h" />
+    <ClInclude Include="WeichiBlock.h" />
+    <ClInclude Include="WeichiBlockSearchResult.h" />
+    <ClInclude Include="WeichiBoard.h" />
+    <ClInclude Include="WeichiBoardStructureGtpEngine.h" />
+    <ClInclude Include="WeichiCacheLogger.h" />
+    <ClInclude Include="WeichiCAHandler.h" />
+    <ClInclude Include="WeichiClosedArea.h" />
+    <ClInclude Include="WeichiCNNBVVNNet.h" />
+    <ClInclude Include="WeichiCNNFeatureGenerator.h" />
+    <ClInclude Include="WeichiCNNFeatureType.h" />
+    <ClInclude Include="WeichiCNNGtpEngine.h" />
+    <ClInclude Include="WeichiCNNNet.h" />
+    <ClInclude Include="WeichiConnector.h" />
+    <ClInclude Include="WeichiConnectorHandler.h" />
+    <ClInclude Include="WeichiDragon.h" />
+    <ClInclude Include="WeichiDragonHandler.h" />
+    <ClInclude Include="WeichiEndGameCondition.h" />
+    <ClInclude Include="WeichiEyeHandler.h" />
+    <ClInclude Include="WeichiEyeStatus.h" />
+    <ClInclude Include="WeichiQuickWinHandler.h" />
+    <ClInclude Include="WeichiLifeDeathGtpEngine.h" />
+    <ClInclude Include="WeichiLifeDeathHandler.h" />
+    <ClInclude Include="WeichiLifeDeathKnowledge.h" />
+    <ClInclude Include="WeichiLogger.h" />
+    <ClInclude Include="WeichiOpenedAreaHandler.h" />
+    <ClInclude Include="WeichiOpenedArea.h" />
+    <ClInclude Include="WeichiRemoteCNNJob.h" />
+    <ClInclude Include="WeichiRemoteCNNJobTable.h" />
+    <ClInclude Include="WeichiCNNNetType.h" />
+    <ClInclude Include="WeichiCNNRLNet.h" />
+    <ClInclude Include="WeichiCNNServer.h" />
+    <ClInclude Include="WeichiCNNSLNet.h" />
+    <ClInclude Include="WeichiCNNTrainNet.h" />
+    <ClInclude Include="WeichiCommonGtpEngine.h" />
+    <ClInclude Include="WeichiConfigure.h" />
+    <ClInclude Include="WeichiDynamicKomi.h" />
+    <ClInclude Include="WeichiEdge.h" />
+    <ClInclude Include="WeichiEdgeHandler.h" />
+    <ClInclude Include="WeichiEdgeType.h" />
+    <ClInclude Include="WeichiGammaTable.h" />
+    <ClInclude Include="WeichiGlobalInfo.h" />
+    <ClInclude Include="WeichiGrid.h" />
+    <ClInclude Include="WeichiGtpEngine.h" />
+    <ClInclude Include="WeichiGtpUtil.h" />
+    <ClInclude Include="WeichiHashGenerator.h" />
+    <ClInclude Include="WeichiJLMctsHandler.h" />
+    <ClInclude Include="WeichiKBGtpEngine.h" />
+    <ClInclude Include="WeichiKnowledgeBase.h" />
+    <ClInclude Include="WeichiLadderReader.h" />
+    <ClInclude Include="WeichiLadderType.h" />
+    <ClInclude Include="WeichiLGRTable.h" />
+    <ClInclude Include="WeichiLifeAndDeathStatus.h" />
+    <ClInclude Include="WeichiLocalSearchHandler.h" />
+    <ClInclude Include="WeichiLocalSearch.h" />
+    <ClInclude Include="WeichiLocalSearchNode.h" />
+    <ClInclude Include="WeichiLocalSearchTree.h" />
+    <ClInclude Include="WeichiLocalSequence.h" />
+    <ClInclude Include="WeichiLowLibReader.h" />
+    <ClInclude Include="WeichiMasterThread.h" />
+    <ClInclude Include="WeichiMiniSearch.h" />
+    <ClInclude Include="WeichiMonteCarlo.h" />
+    <ClInclude Include="WeichiMove.h" />
+    <ClInclude Include="WeichiMoveCache.h" />
+    <ClInclude Include="WeichiMoveDecisionMaker.h" />
+    <ClInclude Include="WeichiMoveFeature.h" />
+    <ClInclude Include="WeichiMoveFeatureHandler.h" />
+    <ClInclude Include="WeichiMoveFeatureType.h" />
+    <ClInclude Include="WeichiParamGtpEngine.h" />
+    <ClInclude Include="WeichiPlayoutGtpEngine.h" />
+    <ClInclude Include="WeichiPlayoutPolicy.h" />
+    <ClInclude Include="WeichiProbabilityPlayoutHandler.h" />
+    <ClInclude Include="WeichiProbabilityTable.h" />
+    <ClInclude Include="WeichiProxy.h" />
+    <ClInclude Include="WeichiPrunePolicy.h" />
+    <ClInclude Include="WeichiRadiusPatternAttribute.h" />
+    <ClInclude Include="WeichiRadiusPatternTable.h" />
+    <ClInclude Include="WeichiRootFilter.h" />
+    <ClInclude Include="WeichiRootShifter.h" />
+    <ClInclude Include="WeichiPlayoutResult.h" />
+    <ClInclude Include="WeichiPlayoutAgent.h" />
+    <ClInclude Include="WeichiRZoneDataTable.h" />
+    <ClInclude Include="WeichiRZoneDataTableEntry.h" />
+    <ClInclude Include="WeichiRZoneHandler.h" />
+    <ClInclude Include="WeichiSafetySolver.h" />
+    <ClInclude Include="WeichiSearchGoal.h" />
+    <ClInclude Include="WeichiSemeaiHandler.h" />
+    <ClInclude Include="WeichiSemeaiInfo.h" />
+    <ClInclude Include="WeichiSemeaiResult.h" />
+    <ClInclude Include="WeichiSlaveThread.h" />
+    <ClInclude Include="WeichiStopCondition.h" />
+    <ClInclude Include="WeichiThreadState.h" />
+    <ClInclude Include="WeichiTrainGtpEngine.h" />
+    <ClInclude Include="WeichiUctAccessor.h" />
+    <ClInclude Include="WeichiUctCNNHandler.h" />
+    <ClInclude Include="WeichiUctGtpEngine.h" />
+    <ClInclude Include="WeichiUctNode.h" />
+    <ClInclude Include="WeichiUctNodeStatus.h" />
+    <ClInclude Include="WeichiWorker.h" />
+    <ClInclude Include="WeichiWorkerStatus.h" />
+    <ClInclude Include="ZeroOptimization.h" />
+    <ClInclude Include="ZeroSelfPlay.h" />
+    <ClInclude Include="ZeroWorkerHandler.h" />
+    <ClInclude Include="Zone7x7Bitboard.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
